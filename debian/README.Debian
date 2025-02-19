@@ -1,0 +1,36 @@
+Additional notes for kicad-footprint
+------------------------------------
+
+This package is providing the footprint packages for the KiCad application
+which are used within Eeschema.
+
+Upstream has no classical stable release concept from a Debian point of view.
+This means that (especially for the footprints) the containing folders of the
+various footprint libraries are not that static within a stable release of the
+KiCad applications.
+
+The KiCad library maintainers do decide which footprints will getting moving
+between the folders. So it might happen that folders within
+
+  /usr/share/kicad/modules/
+
+will disappear by a new Debian package version. This should have no direct
+effect on the user side due the usage of cached libraries within projects.
+But you might want to adjust your local configuration of the footprint library
+table to avoid future inclusion of the removed folder as KiCad while writing
+has no automatic mechanism to adjust such movements!
+
+The user specific footprint library table can be found here
+
+  /home/$(USER)/.config/kicad/fp-lib-table
+
+or you prefer to use the graphical UI for modification which you can start in
+the KiCad launcher by calling
+
+  Menubar: Preferences -> Manage Footprint Libraries...
+
+Overview of removed folders:
+
+kicad-footprints 5.1.6-1 - Connector_Multicomp.pretty
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Wed, 13 Mai 2020 9:30:00 +0200
