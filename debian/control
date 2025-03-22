@@ -11,7 +11,7 @@ Build-Depends:
 Rules-Requires-Root: binary-targets
 Vcs-Git: https://salsa.debian.org/electronics-team/KiCad/kicad-footprints.git -b debian/sid
 Vcs-Browser: https://salsa.debian.org/electronics-team/KiCad/kicad-footprints/-/tree/debian/sid
-Standards-Version: 4.7.0
+Standards-Version: 4.7.1
 Homepage: https://kicad.github.io/footprints
 
 Package: kicad-footprints
@@ -20,11 +20,11 @@ Multi-Arch: foreign
 Depends:
  ${misc:Depends},
 Recommends:
- kicad (>= 8.0.1~),
+ kicad (>= 9.0.0~),
 Breaks:
- kicad (<< 8.0.1~),
+ kicad (<< 9.0.0~),
 Replaces:
- kicad (<< 8.0.1~),
+ kicad (<< 9.0.0~),
 Description: Footprint symbols for KiCad's Pcbnew
  Pcbnew is a powerful printed circuit board software and part of the
  KiCad suite.
@@ -32,4 +32,4 @@ Description: Footprint symbols for KiCad's Pcbnew
  elements. Each footprint is a drawing of the physical component including its
  land pattern (e.g. the layout of pads on the circuit board).
  .
- This package is providing footprints for Pcbnew usable with KiCad >= 8.0.0.
+ This package is providing footprints for Pcbnew usable with KiCad >= 9.0.0.
