@@ -228,22 +228,22 @@
 		(at 0 0)
 		(size 1.8 1.8)
 		(drill 1.1)
-		(remove_unused_layers no)
 		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 	)
 	(pad "2" thru_hole circle
 		(at 4.58 0)
 		(size 1.8 1.8)
 		(drill 1.1)
-		(remove_unused_layers no)
 		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 	)
 	(pad "3" smd rect
 		(at 2.29 -7.433333)
 		(size 5.7 6.2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-251-2-1EP_Horizontal_TabDown.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-251-2-1EP_Horizontal_TabDown.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
