@@ -1,9 +1,9 @@
 (footprint "Converter_DCDC_TRACO_TEN10-110xxWIRH_THT"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "DCDC-Converter, TRACO, TEN 10-110xxWIRH, 10W, Rev. December 16. 2024 (Script generated with StandardBox.py) (https://www.tracopower.com/products/ten10wirh.pdf)")
-	(tags "DCDC-Converter TRACO TEN10WIRH THT DIP-24 COMPATIBLE_MPNS TEN3WIRH TEN6WIRH")
+	(tags "DCDC-Converter TRACO TEN10WIRH THT DIP-24 TEN3WIRH TEN6WIRH")
 	(property "Reference" "REF**"
 		(at -0.83 -3.54 0)
 		(layer "F.SilkS")
@@ -115,49 +115,19 @@
 		)
 		(layer "F.CrtYd")
 	)
-	(fp_line
-		(start -2.53 -1)
-		(end -1.53 -2)
+	(fp_poly
+		(pts
+			(xy -2.53 -1)
+			(xy -2.53 29.8)
+			(xy 17.77 29.8)
+			(xy 17.77 -2)
+			(xy -1.53 -2)
+		)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -2.53 29.8)
-		(end -2.53 -1)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -1.53 -2)
-		(end 17.77 -2)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 17.77 -2)
-		(end 17.77 29.8)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 17.77 29.8)
-		(end -2.53 29.8)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -233,7 +203,8 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
-	(model "${KICAD9_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_TRACO_TEN10-110xxWIRH_THT.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_TRACO_TEN10-110xxWIRH_THT.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,5 +1,5 @@
 (footprint "Converter_DCDC_MeanWell_NSD10_THT"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "MeanWell NSD10 (Script generated with StandardBox.py) (https://www.meanwell.com/webapp/product/search.aspx?prod=NSD10-D)")
@@ -115,49 +115,19 @@
 		)
 		(layer "F.CrtYd")
 	)
-	(fp_line
-		(start -10.16 -14.24)
-		(end -9.16 -15.24)
+	(fp_poly
+		(pts
+			(xy -10.16 -14.24)
+			(xy -10.16 35.56)
+			(xy 15.24 35.56)
+			(xy 15.24 -15.24)
+			(xy -9.16 -15.24)
+		)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -10.16 35.56)
-		(end -10.16 -14.24)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -9.16 -15.24)
-		(end 15.24 -15.24)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 15.24 -15.24)
-		(end 15.24 35.56)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 15.24 35.56)
-		(end -10.16 35.56)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -212,7 +182,8 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
-	(model "${KICAD9_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_MeanWell_NSD10_THT.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_MeanWell_NSD10_THT.step"
 		(offset
 			(xyz 0 0 0)
 		)

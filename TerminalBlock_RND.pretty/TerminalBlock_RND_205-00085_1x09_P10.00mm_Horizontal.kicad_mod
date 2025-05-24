@@ -1,5 +1,5 @@
 (footprint "TerminalBlock_RND_205-00085_1x09_P10.00mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "terminal block RND 205-00085, 9 pins, pitch 10mm, size 85x10.3mm, drill diameter 1.3mm, pad diameter 2.5mm, http://cdn-reichelt.de/documents/datenblatt/C151/RND_205-00078_DB_EN.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_RND")
@@ -709,46 +709,6 @@
 		)
 		(layer "F.SilkS")
 	)
-	(fp_arc
-		(start -1.73 0.683)
-		(mid -1.859943 -0.000144)
-		(end -1.729894 -0.683267)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_arc
-		(start -0.683 -1.73)
-		(mid 0.000144 -1.859943)
-		(end 0.683267 -1.729894)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_arc
-		(start 0.683 1.73)
-		(mid -0.000144 1.859943)
-		(end -0.683267 1.729894)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_arc
-		(start 1.73 -0.683)
-		(mid 1.859943 0.000144)
-		(end 1.729894 0.683267)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
 	(fp_circle
 		(center 5 0)
 		(end 6.5 0)
@@ -756,17 +716,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
-		(layer "F.SilkS")
-	)
-	(fp_circle
-		(center 10 0)
-		(end 11.86 0)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 	)
 	(fp_circle
@@ -776,17 +726,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
-		(layer "F.SilkS")
-	)
-	(fp_circle
-		(center 20 0)
-		(end 21.86 0)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 	)
 	(fp_circle
@@ -796,17 +736,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
-		(layer "F.SilkS")
-	)
-	(fp_circle
-		(center 30 0)
-		(end 31.86 0)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 	)
 	(fp_circle
@@ -816,17 +746,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
-		(layer "F.SilkS")
-	)
-	(fp_circle
-		(center 40 0)
-		(end 41.86 0)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 	)
 	(fp_circle
@@ -836,17 +756,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
-		(layer "F.SilkS")
-	)
-	(fp_circle
-		(center 50 0)
-		(end 51.86 0)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 	)
 	(fp_circle
@@ -856,17 +766,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
-		(layer "F.SilkS")
-	)
-	(fp_circle
-		(center 60 0)
-		(end 61.86 0)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 	)
 	(fp_circle
@@ -876,17 +776,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
-		(layer "F.SilkS")
-	)
-	(fp_circle
-		(center 70 0)
-		(end 71.86 0)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 	)
 	(fp_circle
@@ -896,17 +786,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
-		(layer "F.SilkS")
-	)
-	(fp_circle
-		(center 80 0)
-		(end 81.86 0)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 	)
 	(fp_poly
@@ -914,13 +794,12 @@
 			(xy 0 5.12)
 			(xy 0.44 5.73)
 			(xy -0.44 5.73)
-			(xy 0 5.12)
 		)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 	)
 	(fp_line
@@ -1812,7 +1691,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_circle
@@ -1822,7 +1701,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_circle
@@ -1832,7 +1711,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_circle
@@ -1842,7 +1721,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_circle
@@ -1852,7 +1731,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_circle
@@ -1862,7 +1741,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_circle
@@ -1872,7 +1751,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_circle
@@ -1882,7 +1761,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_circle
@@ -1892,7 +1771,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_circle
@@ -1902,7 +1781,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_circle
@@ -1912,7 +1791,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_circle
@@ -1922,7 +1801,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_circle
@@ -1932,7 +1811,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_circle
@@ -1942,7 +1821,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_circle
@@ -1952,7 +1831,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_circle
@@ -1962,7 +1841,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_circle
@@ -1972,7 +1851,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -2049,7 +1928,8 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
-	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_RND.3dshapes/TerminalBlock_RND_205-00085_1x09_P10.00mm_Horizontal.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_RND.3dshapes/TerminalBlock_RND_205-00085_1x09_P10.00mm_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

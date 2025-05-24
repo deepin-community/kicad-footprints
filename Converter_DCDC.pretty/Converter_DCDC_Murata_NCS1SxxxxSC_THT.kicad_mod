@@ -1,5 +1,5 @@
 (footprint "Converter_DCDC_Murata_NCS1SxxxxSC_THT"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "Murata NCS1SxxxxSC (Script generated with StandardBox.py) (https://power.murata.com/data/power/ncl/kdc_ncs1.pdf)")
@@ -115,49 +115,19 @@
 		)
 		(layer "F.CrtYd")
 	)
-	(fp_line
-		(start -2.27 -2.195)
-		(end -1.27 -3.195)
+	(fp_poly
+		(pts
+			(xy -2.27 -2.195)
+			(xy -2.27 5.005)
+			(xy 19.6 5.005)
+			(xy 19.6 -3.195)
+			(xy -1.27 -3.195)
+		)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -2.27 5.005)
-		(end -2.27 -2.195)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -1.27 -3.195)
-		(end 19.6 -3.195)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 19.6 -3.195)
-		(end 19.6 5.005)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 19.6 5.005)
-		(end -2.27 5.005)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -205,7 +175,8 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
-	(model "${KICAD9_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_Murata_NCS1SxxxxSC_THT.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_Murata_NCS1SxxxxSC_THT.step"
 		(offset
 			(xyz 0 0 0)
 		)

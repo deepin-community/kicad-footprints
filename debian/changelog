@@ -1,3 +1,17 @@
+kicad-footprints (9.0.2-1) unstable; urgency=medium
+
+  * [230079d] New upstream version 9.0.2
+  * [e1b906d] d/control: Increase Standards-Version to 4.7.2
+    + No further changes needed.
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 10 May 2025 11:21:15 +0200
+
+kicad-footprints (9.0.1-1) unstable; urgency=medium
+
+  * [86be086] New upstream version 9.0.1
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Fri, 04 Apr 2025 15:47:13 +0200
+
 kicad-footprints (9.0.0-1) unstable; urgency=medium
 
   * [e92f758] New upstream version 9.0.0
