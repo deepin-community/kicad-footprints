@@ -1,5 +1,5 @@
 (footprint "Converter_DCDC_TRACO_TDU1-xxxx_THT"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "DCDC-Converter, TRACO, TDU1-xxxx, 1W, Rev. October 24. 2023 (Script generated with StandardBox.py) (https://www.tracopower.com/products/tdu1.pdf)")
@@ -115,49 +115,19 @@
 		)
 		(layer "F.CrtYd")
 	)
-	(fp_line
-		(start -1.28 -1.48)
-		(end -0.28 -2.48)
+	(fp_poly
+		(pts
+			(xy -1.28 -1.48)
+			(xy -1.28 10.22)
+			(xy 8.92 10.22)
+			(xy 8.92 -2.48)
+			(xy -0.28 -2.48)
+		)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -1.28 10.22)
-		(end -1.28 -1.48)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -0.28 -2.48)
-		(end 8.92 -2.48)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 8.92 -2.48)
-		(end 8.92 10.22)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 8.92 10.22)
-		(end -1.28 10.22)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -198,7 +168,8 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
-	(model "${KICAD9_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_TRACO_TDU1-xxxx_THT.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_TRACO_TDU1-xxxx_THT.step"
 		(offset
 			(xyz 0 0 0)
 		)

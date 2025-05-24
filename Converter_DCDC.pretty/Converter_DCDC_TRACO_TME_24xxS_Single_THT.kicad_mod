@@ -1,5 +1,5 @@
 (footprint "Converter_DCDC_TRACO_TME_24xxS_Single_THT"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "DCDC-Converter, TRACO, TME-24xxS, 1W, Rev. September 26. 2023 (Script generated with StandardBox.py) (https://www.tracopower.com/products/tme.pdf)")
@@ -115,49 +115,19 @@
 		)
 		(layer "F.CrtYd")
 	)
-	(fp_line
-		(start -1.675 -0.9)
-		(end -0.675 -1.9)
+	(fp_poly
+		(pts
+			(xy -1.675 -0.9)
+			(xy -1.675 9.6)
+			(xy 5.425 9.6)
+			(xy 5.425 -1.9)
+			(xy -0.675 -1.9)
+		)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -1.675 9.6)
-		(end -1.675 -0.9)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -0.675 -1.9)
-		(end 5.425 -1.9)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 5.425 -1.9)
-		(end 5.425 9.6)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 5.425 9.6)
-		(end -1.675 9.6)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -198,7 +168,8 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
-	(model "${KICAD9_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_TRACO_TME_24xxS_Single_THT.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_TRACO_TME_24xxS_Single_THT.step"
 		(offset
 			(xyz 0 0 0)
 		)

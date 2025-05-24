@@ -1,9 +1,9 @@
 (footprint "Converter_DCDC_TRACO_TSR2-24xxN_TSR2-24xxxN_THT"
-	(version 20240108)
+	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "DCDC-Converter, TRACO, TSR2-24xxN, TSR2-24xxxN, 2A, Rev. December 19. 2024 (Script generated with StandardBox.py) (https://www.tracopower.com/products/tsr2n.pdf)")
-	(tags "DCDC-Converter SWITCHING-REGULATOR STEP-DOWN TRACO TSR2N 2.54MM THT SIP-3 2A COMPATIBLE_MPNS TSR3N")
+	(tags "DCDC-Converter SWITCHING-REGULATOR STEP-DOWN TRACO TSR2N 2.54MM THT SIP-3 2A TSR3N")
 	(property "Reference" "REF**"
 		(at -4.46 -6 0)
 		(layer "F.SilkS")
@@ -115,49 +115,19 @@
 		)
 		(layer "F.CrtYd")
 	)
-	(fp_line
-		(start -6.16 -3.46)
-		(end -5.16 -4.46)
+	(fp_poly
+		(pts
+			(xy -6.16 -3.46)
+			(xy -6.16 9.54)
+			(xy 1.44 9.54)
+			(xy 1.44 -4.46)
+			(xy -5.16 -4.46)
+		)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -6.16 9.54)
-		(end -6.16 -3.46)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -5.16 -4.46)
-		(end 1.44 -4.46)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 1.44 -4.46)
-		(end 1.44 9.54)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 1.44 9.54)
-		(end -6.16 9.54)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -191,7 +161,8 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
-	(model "${KICAD9_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_TRACO_TSR2-24xxN_TSR2-24xxxN_THT.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_TRACO_TSR2-24xxN_TSR2-24xxxN_THT.step"
 		(offset
 			(xyz 0 0 0)
 		)
