@@ -1,8 +1,8 @@
 (footprint "TFBGA-49_3x3mm_Layout7x7_P0.4mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "TFBGA-49, NSMD, 3.0x3.0mm, 49 Ball, 7x7 Layout, 0.4mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.efinixinc.com/docs/trion-packaging-ug-v4.9.pdf")
+	(descr "TFBGA-49, NSMD, 3.0x3.0mm, 49 Ball, 7x7 Layout, 0.4mm Pitch, https://www.efinixinc.com/docs/trion-packaging-ug-v4.9.pdf")
 	(tags "BGA 49 0.4 49-ball FBGA")
 	(solder_mask_margin 0.05)
 	(property "Reference" "REF**"
@@ -25,7 +25,19 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "package/grid_array"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.61 1.61)
 		(end -1.61 -0.86)
@@ -75,40 +87,14 @@
 		(fill yes)
 		(layer "F.SilkS")
 	)
-	(fp_line
+	(fp_rect
 		(start -2.5 -2.5)
-		(end -2.5 2.5)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -2.5 2.5)
 		(end 2.5 2.5)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 2.5 -2.5)
-		(end -2.5 -2.5)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 2.5 2.5)
-		(end 2.5 -2.5)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.CrtYd")
 	)
 	(fp_line
@@ -461,7 +447,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_BGA.3dshapes/TFBGA-49_3x3mm_Layout7x7_P0.4mm.step"
+	(model "${KICAD10_3DMODEL_DIR}/Package_BGA.3dshapes/TFBGA-49_3x3mm_Layout7x7_P0.4mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

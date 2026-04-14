@@ -1,8 +1,8 @@
 (footprint "OnSemi_UDFN-16-1EP_1.35x3.3mm_P0.4mm_EP0.4x2.8mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "OnSemi  UDFN, 16 Pin (https://www.onsemi.com/pdf/datasheet/cm1624-d.pdf#page=7), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(descr "OnSemi  UDFN, 16 Pin (https://www.onsemi.com/pdf/datasheet/cm1624-d.pdf#page=7)")
 	(tags "OnSemi UDFN NoLead")
 	(property "Reference" "REF**"
 		(at 0 -2.6 0)
@@ -24,10 +24,22 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "package/no_lead"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -0.675 -1.76)
-		(end 0.675 -1.76)
+		(start -0.429252 -1.76)
+		(end 0.785 -1.76)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -35,8 +47,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -0.675 1.76)
-		(end 0.675 1.76)
+		(start 0.785 1.76)
+		(end -0.785 1.76)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -45,9 +57,9 @@
 	)
 	(fp_poly
 		(pts
-			(xy -1.2 -1.67)
-			(xy -1.48 -1.67)
-			(xy -1.2 -1.95)
+			(xy -0.72 -1.77)
+			(xy -0.86 -1.96)
+			(xy -0.58 -1.96)
 		)
 		(stroke
 			(width 0.12)
@@ -166,11 +178,11 @@
 	)
 	(fp_poly
 		(pts
-			(xy -0.675 -1.3125)
-			(xy -0.675 1.65)
-			(xy 0.675 1.65)
-			(xy 0.675 -1.65)
 			(xy -0.3375 -1.65)
+			(xy 0.675 -1.65)
+			(xy 0.675 1.65)
+			(xy -0.675 1.65)
+			(xy -0.675 -1.3125)
 		)
 		(stroke
 			(width 0.1)
@@ -311,7 +323,7 @@
 		(zone_connect 2)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/OnSemi_UDFN-16-1EP_1.35x3.3mm_P0.4mm_EP0.4x2.8mm.step"
+	(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/OnSemi_UDFN-16-1EP_1.35x3.3mm_P0.4mm_EP0.4x2.8mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

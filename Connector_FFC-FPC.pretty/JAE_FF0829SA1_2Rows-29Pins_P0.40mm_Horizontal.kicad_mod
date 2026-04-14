@@ -1,8 +1,8 @@
 (footprint "JAE_FF0829SA1_2Rows-29Pins_P0.40mm_Horizontal"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Molex JAE 0.2mm pitch, 1mm overall height FFC/FPC connector, FF0829SA1, 29 Circuits (http://www.jae.com/z-en/pdf_download_exec.cfm?param=SJ108178.pdf), generated with kicad-footprint-generator")
+	(descr "Molex JAE 0.2mm pitch, 1mm overall height FFC/FPC connector, FF0829SA1, 29 Circuits (http://www.jae.com/z-en/pdf_download_exec.cfm?param=SJ108178.pdf)")
 	(tags "connector JAE  horizontal")
 	(property "Reference" "REF**"
 		(at 0.15 -5.13 0)
@@ -24,7 +24,19 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "connector/JAE"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.097132 -2.95)
 		(end -1.885 -2.8)
@@ -142,63 +154,19 @@
 		)
 		(layer "F.SilkS")
 	)
-	(fp_line
+	(fp_rect
 		(start -2.13 -4.43)
-		(end -2.13 4.43)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -2.13 4.43)
 		(end 2.46 4.43)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 2.46 -4.43)
-		(end -2.13 -4.43)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 2.46 4.43)
-		(end 2.46 -4.43)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -1.275 -3.925)
-		(end -1.275 3.925)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
 	)
 	(fp_line
 		(start -1.275 -3.1)
 		(end -0.850736 -2.8)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -1.275 3.925)
-		(end 1.575 3.925)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -215,26 +183,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 1.575 -3.925)
-		(end -1.275 -3.925)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
 		(start 1.575 -3.8)
 		(end 1.955 -2.8)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 1.575 3.925)
-		(end 1.575 -3.925)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -257,6 +207,16 @@
 			(width 0.1)
 			(type solid)
 		)
+		(layer "F.Fab")
+	)
+	(fp_rect
+		(start -1.275 -3.925)
+		(end 1.575 3.925)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -415,7 +375,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_FFC-FPC.3dshapes/JAE_FF0829SA1_2Rows-29Pins_P0.40mm_Horizontal.step"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_FFC-FPC.3dshapes/JAE_FF0829SA1_2Rows-29Pins_P0.40mm_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

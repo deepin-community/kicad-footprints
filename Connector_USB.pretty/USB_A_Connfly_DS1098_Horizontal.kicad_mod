@@ -1,7 +1,7 @@
 (footprint "USB_A_Connfly_DS1098_Horizontal"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "USB type A Plug, Horizontal, https://en.connfly.com/static/upload/file//DS1098.pdf")
 	(tags "USB-A")
@@ -52,6 +52,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy -10.55 -4.50153) (xy -10.89 -4.97153) (xy -10.21 -4.97153)
@@ -289,24 +290,26 @@
 		(roundrect_rratio 0.25)
 		(uuid "00f01998-aa3d-4289-9457-b4b6ba155489")
 	)
-	(pad "5" thru_hole oval
+	(pad "SH" thru_hole oval
 		(at -8.3 -5.85)
 		(size 3.8 1.4)
 		(drill oval 2.5 0.9)
+		(property pad_prop_mechanical)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "0270dc3d-5ede-4527-aead-4a18a401baf9")
 	)
-	(pad "5" thru_hole oval
+	(pad "SH" thru_hole oval
 		(at -8.3 5.85)
 		(size 3.8 1.4)
 		(drill oval 2.5 0.9)
+		(property pad_prop_mechanical)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "6cec3bbc-9d09-4a82-862b-d2316babbd9f")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_A_Connfly_DS1098_Horizontal.step"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_A_Connfly_DS1098_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

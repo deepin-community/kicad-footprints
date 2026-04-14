@@ -1,8 +1,8 @@
 (footprint "JST_XA_S13B-XASK-1_1x13_P2.50mm_Horizontal"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "JST XA series connector, S13B-XASK-1 (https://www.jst.com/wp-content/uploads/2021/01/eXA1.pdf), generated with kicad-footprint-generator")
+	(descr "JST XA series connector, S13B-XASK-1 (https://www.jst.com/wp-content/uploads/2021/01/eXA1.pdf)")
 	(tags "connector JST XA horizontal hook")
 	(property "Reference" "REF**"
 		(at 15 -4.6 0)
@@ -24,7 +24,19 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "connector/JST"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.61 -3.51)
 		(end -2.61 9.31)
@@ -197,42 +209,6 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 14.2 3.4)
-		(end 15.8 3.4)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 14.2 5.2)
-		(end 14.2 3.4)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 15.8 3.4)
-		(end 15.8 5.2)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 15.8 5.2)
-		(end 14.2 5.2)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
 		(start 16.6 7.01)
 		(end 31.5 7.01)
 		(stroke
@@ -365,6 +341,16 @@
 			(width 0.12)
 			(type solid)
 		)
+		(layer "F.SilkS")
+	)
+	(fp_rect
+		(start 14.2 3.4)
+		(end 15.8 5.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
 		(layer "F.SilkS")
 	)
 	(fp_line
@@ -647,7 +633,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XA_S13B-XASK-1_1x13_P2.50mm_Horizontal.step"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XA_S13B-XASK-1_1x13_P2.50mm_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,8 +1,8 @@
 (footprint "Molex_KK-254_AE-6410-11A_1x11_P2.54mm_Vertical"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-11A example for new part number: 22-27-2111, 11 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator")
+	(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-11A example for new part number: 22-27-2111, 11 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf)")
 	(tags "connector Molex KK-254 vertical")
 	(property "Reference" "REF**"
 		(at 12.7 -4.12 0)
@@ -24,28 +24,22 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "connector/Molex"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.67 -2)
 		(end -1.67 2)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -1.38 -3.03)
-		(end -1.38 2.99)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -1.38 2.99)
-		(end 26.78 2.99)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -475,81 +469,29 @@
 		)
 		(layer "F.SilkS")
 	)
-	(fp_line
-		(start 26.78 -3.03)
-		(end -1.38 -3.03)
+	(fp_rect
+		(start -1.38 -3.03)
+		(end 26.78 2.99)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.SilkS")
 	)
-	(fp_line
-		(start 26.78 2.99)
-		(end 26.78 -3.03)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
+	(fp_rect
 		(start -1.77 -3.42)
-		(end -1.77 3.38)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -1.77 3.38)
 		(end 27.17 3.38)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 27.17 -3.42)
-		(end -1.77 -3.42)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 27.17 3.38)
-		(end 27.17 -3.42)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -1.27 -2.92)
-		(end -1.27 2.88)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
 	)
 	(fp_line
 		(start -1.27 -0.5)
 		(end -0.562893 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -1.27 2.88)
-		(end 26.67 2.88)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -565,22 +507,14 @@
 		)
 		(layer "F.Fab")
 	)
-	(fp_line
-		(start 26.67 -2.92)
-		(end -1.27 -2.92)
+	(fp_rect
+		(start -1.27 -2.92)
+		(end 26.67 2.88)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 26.67 2.88)
-		(end 26.67 -2.92)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -672,7 +606,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_KK-254_AE-6410-11A_1x11_P2.54mm_Vertical.step"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_KK-254_AE-6410-11A_1x11_P2.54mm_Vertical.step"
 		(offset
 			(xyz 0 0 0)
 		)

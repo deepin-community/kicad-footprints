@@ -1,11 +1,11 @@
 (footprint "Converter_DCDC_TRACO_THB10-xxxx_Single_THT"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "DCDC-Converter, TRACO, THB10-xxxx, Single, 10W, Rev. March 12. 2025 (Script generated with StandardBox.py) (https://www.tracopower.com/products/thb10.pdf)")
+	(descr "DCDC-Converter, TRACO, THB10-xxxx, Single, 10W, Rev. March 12. 2025, https://www.tracopower.com/products/thb10.pdf")
 	(tags "DCDC-Converter TRACO THB10 THT 2\"x1\" 10W TRI15 TRI20")
 	(property "Reference" "REF**"
-		(at -3.38 -4.08 0)
+		(at 7.62 -3.99 0)
 		(layer "F.SilkS")
 		(effects
 			(font
@@ -15,7 +15,7 @@
 		)
 	)
 	(property "Value" "Converter_DCDC_TRACO_THB10-xxxx_Single_THT"
-		(at 7.62 50.01 0)
+		(at 7.62 49.71 0)
 		(layer "F.Fab")
 		(effects
 			(font
@@ -24,10 +24,22 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "converter_ACDC_DCDC"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -5.88 -3.34)
-		(end -2.88 -3.34)
+		(start -5.69 -3.15)
+		(end -0.296 -3.15)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -35,8 +47,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -5.88 -0.34)
-		(end -5.88 -3.34)
+		(start -5.69 48.87)
+		(end -5.69 -3.15)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -44,8 +56,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -5.64 -3.1)
-		(end -5.64 48.82)
+		(start 0.296 -3.15)
+		(end 20.93 -3.15)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -53,8 +65,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -5.64 -3.1)
-		(end 20.88 -3.1)
+		(start 20.93 -3.15)
+		(end 20.93 48.87)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -62,66 +74,44 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -5.64 48.82)
-		(end 20.88 48.82)
+		(start 20.93 48.87)
+		(end -5.69 48.87)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
 	)
-	(fp_line
-		(start 20.88 -3.1)
-		(end 20.88 48.82)
+	(fp_poly
+		(pts
+			(xy 0 -3.15)
+			(xy -0.44 -3.76)
+			(xy 0.44 -3.76)
+		)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
+		(fill yes)
 		(layer "F.SilkS")
 	)
-	(fp_line
-		(start -5.84 -3.3)
-		(end -5.84 49.02)
+	(fp_rect
+		(start -5.83 -3.29)
+		(end 21.07 49.01)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -5.84 49.02)
-		(end 21.08 49.02)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 21.08 -3.3)
-		(end -5.84 -3.3)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 21.08 49.02)
-		(end 21.08 -3.3)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.CrtYd")
 	)
 	(fp_poly
 		(pts
-			(xy -5.08 -1.54)
-			(xy -5.08 48.26)
-			(xy 20.32 48.26)
-			(xy 20.32 -2.54)
 			(xy -4.08 -2.54)
+			(xy 20.32 -2.54)
+			(xy 20.32 48.26)
+			(xy -5.08 48.26)
+			(xy -5.08 -1.54)
 		)
 		(stroke
 			(width 0.1)
@@ -140,12 +130,13 @@
 			)
 		)
 	)
-	(pad "1" thru_hole rect
+	(pad "1" thru_hole roundrect
 		(at 0 0)
 		(size 2.3 2.3)
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.108696)
 	)
 	(pad "2" thru_hole circle
 		(at 5.08 0)
@@ -169,7 +160,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_TRACO_THB10-xxxx_Single_THT.step"
+	(model "${KICAD10_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_TRACO_THB10-xxxx_Single_THT.step"
 		(offset
 			(xyz 0 0 0)
 		)

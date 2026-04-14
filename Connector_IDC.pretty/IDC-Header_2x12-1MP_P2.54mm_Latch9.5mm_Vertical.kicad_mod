@@ -1,5 +1,5 @@
 (footprint "IDC-Header_2x12-1MP_P2.54mm_Latch9.5mm_Vertical"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "Through hole IDC header, 2x12, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, 9.5mm latches, mounting holes, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0")
@@ -24,7 +24,19 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "connector/pin_header_socket"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.63 -0.5)
 		(end -4.63 0.5)
@@ -109,15 +121,6 @@
 	(fp_line
 		(start -1.93 16.02)
 		(end -3.24 16.02)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -1.93 16.02)
-		(end -1.93 16.02)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -232,40 +235,14 @@
 		)
 		(layer "F.SilkS")
 	)
-	(fp_line
+	(fp_rect
 		(start -3.63 -20.97)
-		(end -3.63 48.91)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -3.63 48.91)
 		(end 6.17 48.91)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 6.17 -20.97)
-		(end -3.63 -20.97)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 6.17 48.91)
-		(end 6.17 -20.97)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.CrtYd")
 	)
 	(fp_line
@@ -325,15 +302,6 @@
 	(fp_line
 		(start -1.93 16.02)
 		(end -3.13 16.02)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -1.93 16.02)
-		(end -1.93 16.02)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -633,8 +601,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC-Header_2x12-1MP_P2.54mm_Latch9.5mm_Vertical.step"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC-Header_2x12-1MP_P2.54mm_Latch9.5mm_Vertical.step"
 		(offset
 			(xyz 0 0 0)
 		)

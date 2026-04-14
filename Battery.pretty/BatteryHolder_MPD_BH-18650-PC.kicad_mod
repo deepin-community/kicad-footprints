@@ -1,11 +1,11 @@
 (footprint "BatteryHolder_MPD_BH-18650-PC"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Battery holder, MPD BH-18650, battery type 1x18650 (Script generated with StandardBox.py) (https://www.batteryholders.com/uploads/parts/BH-18650-PC/datasheets/BH-18650-PC-datasheet.pdf)")
+	(descr "Battery holder, MPD BH-18650, battery type 1x18650, https://www.batteryholders.com/uploads/parts/BH-18650-PC/datasheets/BH-18650-PC-datasheet.pdf")
 	(tags "horizontal single")
 	(property "Reference" "REF**"
-		(at -0.7 -11.99 0)
+		(at 36.45 -11.9 0)
 		(layer "F.SilkS")
 		(effects
 			(font
@@ -15,7 +15,7 @@
 		)
 	)
 	(property "Value" "BatteryHolder_MPD_BH-18650-PC"
-		(at 36.45 12.2 0)
+		(at 36.45 11.9 0)
 		(layer "F.Fab")
 		(effects
 			(font
@@ -24,10 +24,22 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "battery"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -2.96 -11.01)
-		(end -2.96 11.01)
+		(start -3.01 -11.06)
+		(end 75.91 -11.06)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -35,8 +47,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -2.96 -11.01)
-		(end 75.86 -11.01)
+		(start -3.01 11.06)
+		(end -3.01 -11.06)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -44,8 +56,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -2.96 11.01)
-		(end 75.86 11.01)
+		(start 75.91 -11.06)
+		(end 75.91 11.06)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -53,48 +65,22 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 75.86 -11.01)
-		(end 75.86 11.01)
+		(start 75.91 11.06)
+		(end -3.01 11.06)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
 	)
-	(fp_line
-		(start -3.16 -11.21)
-		(end -3.16 11.21)
+	(fp_rect
+		(start -3.15 -11.2)
+		(end 76.05 11.2)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -3.16 11.21)
-		(end 76.06 11.21)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 76.06 -11.21)
-		(end -3.16 -11.21)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 76.06 11.21)
-		(end 76.06 -11.21)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.CrtYd")
 	)
 	(fp_rect
@@ -117,22 +103,22 @@
 			)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at 36.45 0 0)
-		(layer "F.Fab")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "+"
 		(at 4 -0.2 0)
 		(layer "F.Fab")
 		(effects
 			(font
 				(size 3 3)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 36.45 0 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
@@ -149,12 +135,13 @@
 		(drill 3.2)
 		(layers "*.Cu" "*.Mask")
 	)
-	(pad "1" thru_hole rect
+	(pad "1" thru_hole roundrect
 		(at 0 0)
 		(size 3 3)
 		(drill 1.57)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.083333)
 	)
 	(pad "2" thru_hole circle
 		(at 72.9 0)
@@ -164,7 +151,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_MPD_BH-18650-PC.step"
+	(model "${KICAD10_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_MPD_BH-18650-PC.step"
 		(offset
 			(xyz 0 0 0)
 		)

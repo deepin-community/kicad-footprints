@@ -1,8 +1,8 @@
 (footprint "MO112AC1_PQFP-52_10x10mm_P0.65mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "MO112AC1 PQFP, 52 Pin (JEDEC MO-112 variation AC-1, https://www.jedec.org/document_search?search_api_views_fulltext=MO-112, https://www.analog.com/media/en/package-pcb-resources/package/32717196300961s_52_2.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(descr "MO112AC1 PQFP, 52 Pin (JEDEC MO-112 variation AC-1, https://www.jedec.org/document_search?search_api_views_fulltext=MO-112, https://www.analog.com/media/en/package-pcb-resources/package/32717196300961s_52_2.pdf)")
 	(tags "PQFP QFP MQFP S-52-2 high-standoff")
 	(property "Reference" "REF**"
 		(at 0 -8.3 0)
@@ -24,84 +24,34 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "package/gullwing"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
-	(fp_line
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
 		(start -5.11 -5.11)
-		(end -5.11 -4.36)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -5.11 5.11)
-		(end -5.11 4.36)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -4.36 -5.11)
-		(end -5.11 -5.11)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -4.36 5.11)
-		(end -5.11 5.11)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 4.36 -5.11)
-		(end 5.11 -5.11)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 4.36 5.11)
 		(end 5.11 5.11)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 5.11 -5.11)
-		(end 5.11 -4.36)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 5.11 5.11)
-		(end 5.11 4.36)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.SilkS")
 	)
 	(fp_poly
 		(pts
-			(xy -6.175 -4.36)
-			(xy -6.515 -4.83)
-			(xy -5.835 -4.83)
+			(xy -6.48 -4.36)
+			(xy -6.82 -4.83)
+			(xy -6.14 -4.83)
 		)
 		(stroke
 			(width 0.12)
@@ -290,49 +240,19 @@
 		)
 		(layer "F.CrtYd")
 	)
-	(fp_line
-		(start -5 -4)
-		(end -4 -5)
+	(fp_poly
+		(pts
+			(xy -4 -5)
+			(xy 5 -5)
+			(xy 5 5)
+			(xy -5 5)
+			(xy -5 -4)
+		)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -5 5)
-		(end -5 -4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -4 -5)
-		(end 5 -5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 5 -5)
-		(end 5 5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 5 5)
-		(end -5 5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -658,7 +578,7 @@
 		(roundrect_rratio 0.25)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_QFP.3dshapes/MO112AC1_PQFP-52_10x10mm_P0.65mm.step"
+	(model "${KICAD10_3DMODEL_DIR}/Package_QFP.3dshapes/MO112AC1_PQFP-52_10x10mm_P0.65mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,8 +1,8 @@
 (footprint "Molex_Micro-Fit_3.0_43650-0810_1x08-1MP_P3.00mm_Horizontal_PnP"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Molex Micro-Fit 3.0 Connector System, 43650-0810 (compatible alternatives: 43650-0811, 43650-0809), 8 Pins per row (https://www.molex.com/pdm_docs/sd/436500210_sd.pdf), generated with kicad-footprint-generator")
+	(descr "Molex Micro-Fit 3.0 Connector System, 43650-0810 (compatible alternatives: 43650-0811, 43650-0809), 8 Pins per row (https://www.molex.com/pdm_docs/sd/436500210_sd.pdf)")
 	(tags "connector Molex Micro-Fit_3.0 horizontal")
 	(property "Reference" "REF**"
 		(at 0 -6.15 0)
@@ -24,7 +24,19 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "connector/Molex"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -13.935 -3.06)
 		(end -13.935 -2.14)
@@ -430,7 +442,7 @@
 		(at -12.65 -0.35)
 		(size 2.84 2.84)
 		(drill 2.54)
-		(property pad_prop_heatsink)
+		(property pad_prop_mechanical)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
@@ -438,12 +450,12 @@
 		(at 12.65 -0.35)
 		(size 2.84 2.84)
 		(drill 2.54)
-		(property pad_prop_heatsink)
+		(property pad_prop_mechanical)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0810_1x08-1MP_P3.00mm_Horizontal_PnP.step"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0810_1x08-1MP_P3.00mm_Horizontal_PnP.step"
 		(offset
 			(xyz 0 0 0)
 		)

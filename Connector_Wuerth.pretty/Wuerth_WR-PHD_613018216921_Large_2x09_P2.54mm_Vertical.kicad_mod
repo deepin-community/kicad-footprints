@@ -1,8 +1,8 @@
 (footprint "Wuerth_WR-PHD_613018216921_Large_2x09_P2.54mm_Vertical"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Connector Wuerth, WR-PHD 2.54mm Dual Socket Header Bottom Entry Large, Wuerth electronics 613018216921 (https://katalog.we-online.de/em/datasheet/613018216921.pdf), generated with kicad-footprint-generator")
+	(descr "Connector Wuerth, WR-PHD 2.54mm Dual Socket Header Bottom Entry Large, Wuerth electronics 613018216921 (https://katalog.we-online.de/em/datasheet/613018216921.pdf)")
 	(tags "Connector Wuerth WR-PHD 2.54mm 613018216921")
 	(property "Reference" "REF**"
 		(at 3.81 -2.72 0)
@@ -24,7 +24,19 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "connector/Wuerth"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 1.16 -1.63)
 		(end 1.16 -0.995)
@@ -234,7 +246,7 @@
 	)
 	(fp_line
 		(start -1.35 -1.35)
-		(end 0.77 -1.35)
+		(end 0.76 -1.35)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -251,7 +263,7 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 0.77 -2.02)
+		(start 0.76 -2.02)
 		(end 6.85 -2.02)
 		(stroke
 			(width 0.05)
@@ -260,8 +272,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 0.77 -1.35)
-		(end 0.77 -2.02)
+		(start 0.76 -1.35)
+		(end 0.76 -2.02)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -269,7 +281,7 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 0.77 21.67)
+		(start 0.76 21.67)
 		(end -1.35 21.67)
 		(stroke
 			(width 0.05)
@@ -278,8 +290,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 0.77 22.34)
-		(end 0.77 21.67)
+		(start 0.76 22.34)
+		(end 0.76 21.67)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -315,7 +327,7 @@
 	)
 	(fp_line
 		(start 6.85 22.34)
-		(end 0.77 22.34)
+		(end 0.76 22.34)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -340,40 +352,14 @@
 		)
 		(layer "F.CrtYd")
 	)
-	(fp_line
+	(fp_rect
 		(start 1.27 -1.52)
-		(end 1.27 21.84)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 1.27 21.84)
 		(end 6.35 21.84)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 6.35 -1.52)
-		(end 1.27 -1.52)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 6.35 21.84)
-		(end 6.35 -1.52)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -621,7 +607,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_Wuerth.3dshapes/Wuerth_WR-PHD_613018216921_Large_2x09_P2.54mm_Vertical.step"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_Wuerth.3dshapes/Wuerth_WR-PHD_613018216921_Large_2x09_P2.54mm_Vertical.step"
 		(offset
 			(xyz 0 0 0)
 		)

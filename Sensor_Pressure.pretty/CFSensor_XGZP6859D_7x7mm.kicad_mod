@@ -1,8 +1,8 @@
 (footprint "CFSensor_XGZP6859D_7x7mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "CFSensor XGZP6859D SO, 6 Pin (https://cfsensor.com/wp-content/uploads/2022/11/XGZP6859D-Pressure-Sensor-V2.5.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(descr "CFSensor XGZP6859D SO, 6 Pin (https://cfsensor.com/wp-content/uploads/2022/11/XGZP6859D-Pressure-Sensor-V2.5.pdf)")
 	(tags "CFSensor SO Sensor_Pressure")
 	(property "Reference" "REF**"
 		(at 0 -4.45 0)
@@ -24,10 +24,31 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "package/gullwing"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.61 -3.61)
-		(end -3.61 -3.3)
+		(end 3.61 -3.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -3.61 -3.3)
+		(end -3.61 -3.61)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -44,42 +65,6 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 0 -3.61)
-		(end -3.61 -3.61)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 0 -3.61)
-		(end 3.61 -3.61)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 0 3.61)
-		(end -3.61 3.61)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 0 3.61)
-		(end 3.61 3.61)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
 		(start 3.61 -3.61)
 		(end 3.61 -3.3)
 		(stroke
@@ -89,8 +74,17 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
+		(start 3.61 3.3)
+		(end 3.61 3.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
 		(start 3.61 3.61)
-		(end 3.61 3.3)
+		(end -3.61 3.61)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -99,9 +93,9 @@
 	)
 	(fp_poly
 		(pts
-			(xy -4.625 -3.3)
-			(xy -4.965 -3.77)
-			(xy -4.285 -3.77)
+			(xy -4.39 -1.78)
+			(xy -4.05 -1.31)
+			(xy -4.73 -1.31)
 		)
 		(stroke
 			(width 0.12)
@@ -238,49 +232,19 @@
 		)
 		(layer "F.CrtYd")
 	)
-	(fp_line
-		(start -3.5 -2.5)
-		(end -2.5 -3.5)
+	(fp_poly
+		(pts
+			(xy -2.5 -3.5)
+			(xy 3.5 -3.5)
+			(xy 3.5 3.5)
+			(xy -3.5 3.5)
+			(xy -3.5 -2.5)
+		)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -3.5 3.5)
-		(end -3.5 -2.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -2.5 -3.5)
-		(end 3.5 -3.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 3.5 -3.5)
-		(end 3.5 3.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 3.5 3.5)
-		(end -3.5 3.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -330,7 +294,7 @@
 		(roundrect_rratio 0.25)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Sensor_Pressure.3dshapes/CFSensor_XGZP6859D_7x7mm.step"
+	(model "${KICAD10_3DMODEL_DIR}/Sensor_Pressure.3dshapes/CFSensor_XGZP6859D_7x7mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

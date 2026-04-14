@@ -1,3 +1,56 @@
+kicad-footprints (10.0.0-1) unstable; urgency=medium
+
+  * [8b3c35f] New upstream version 10.0.0
+  * [5894f4c] d/control: Bump Bre/Sug/Rec versions to >=/<< 10.0.0~
+  * [dee0ac5] d/control: Remove Rules-Requires-Root
+     + We don't build any binaries so would need to set this to key to
+       Rules-Requires-Root: no
+       and that's now the default.
+  * [7abe589] d/control: Increase Standards-Version to 4.7.4
+    + No further changes needed.
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Mon, 06 Apr 2026 16:01:06 +0200
+
+kicad-footprints (9.0.8-1) unstable; urgency=medium
+
+  * [19c4881] New upstream version 9.0.8
+  * [a6a370f] d/control: Drop field Priority: optional
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Mon, 16 Mar 2026 19:39:13 +0200
+
+kicad-footprints (9.0.7-1) unstable; urgency=medium
+
+  * [b836b86] New upstream version 9.0.7
+  * [e359565] d/control: Increase Standards-Version to 4.7.3
+    + No further changes needed.
+  * [1cb55fb] d/copyright: Update year data
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 03 Jan 2026 09:20:05 +0200
+
+kicad-footprints (9.0.6-1) unstable; urgency=medium
+
+  * [2e7b1a4] New upstream version 9.0.6
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Mon, 03 Nov 2025 18:51:06 +0200
+
+kicad-footprints (9.0.5-1) unstable; urgency=medium
+
+  * [f19f6ee] New upstream version 9.0.5
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Fri, 03 Oct 2025 11:59:16 +0200
+
+kicad-footprints (9.0.4-1) unstable; urgency=medium
+
+  * [b6243fa] New upstream version 9.0.4
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 24 Aug 2025 08:30:10 +0200
+
+kicad-footprints (9.0.3-1) unstable; urgency=medium
+
+  * [6709c43] New upstream version 9.0.3
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Wed, 16 Jul 2025 10:02:31 +0200
+
 kicad-footprints (9.0.2-1) unstable; urgency=medium
 
   * [230079d] New upstream version 9.0.2

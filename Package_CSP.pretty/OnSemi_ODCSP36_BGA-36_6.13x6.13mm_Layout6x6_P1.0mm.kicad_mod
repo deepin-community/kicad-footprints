@@ -1,8 +1,8 @@
 (footprint "OnSemi_ODCSP36_BGA-36_6.13x6.13mm_Layout6x6_P1.0mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "OnSemi ODCSP36 (Case 570CP), 0.27mm pad, 6.13x6.13mm, 36 Ball, 6x6 Layout, 1.0mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.onsemi.com/pub/Collateral/570CP.PDF")
+	(descr "OnSemi ODCSP36 (Case 570CP), 0.27mm pad, 6.13x6.13mm, 36 Ball, 6x6 Layout, 1.0mm Pitch, https://www.onsemi.com/pub/Collateral/570CP.PDF")
 	(tags "CSP 36 1.0")
 	(solder_mask_margin 0.1)
 	(property "Reference" "REF**"
@@ -25,7 +25,19 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "package/grid_array"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.175 3.175)
 		(end -3.175 -2.175)
@@ -93,40 +105,14 @@
 		)
 		(layer "Cmts.User")
 	)
-	(fp_line
+	(fp_rect
 		(start -4.07 -4.07)
-		(end -4.07 4.07)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -4.07 4.07)
 		(end 4.07 4.07)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 4.07 -4.07)
-		(end -4.07 -4.07)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 4.07 4.07)
-		(end 4.07 -4.07)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.CrtYd")
 	)
 	(fp_line
@@ -401,7 +387,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_CSP.3dshapes/OnSemi_ODCSP36_BGA-36_6.13x6.13mm_Layout6x6_P1.0mm.step"
+	(model "${KICAD10_3DMODEL_DIR}/Package_CSP.3dshapes/OnSemi_ODCSP36_BGA-36_6.13x6.13mm_Layout6x6_P1.0mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,8 +1,8 @@
 (footprint "Hirose_DF13-10P-1.25DS_1x10_P1.25mm_Horizontal"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Hirose DF13 through hole, DF13-10P-1.25DS, 10 Pins per row (https://www.hirose.com/product/en/products/DF13/DF13-4P-1.25DS%2820%29/), generated with kicad-footprint-generator")
+	(descr "Hirose DF13 through hole, DF13-10P-1.25DS, 10 Pins per row (https://www.hirose.com/product/en/products/DF13/DF13-4P-1.25DS%2820%29/)")
 	(tags "connector Hirose DF13 horizontal")
 	(property "Reference" "REF**"
 		(at 5.62 -5.7 0)
@@ -24,7 +24,19 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "connector/Hirose"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.56 -4.61)
 		(end 12.81 -4.61)
@@ -754,59 +766,15 @@
 		)
 		(layer "F.SilkS")
 	)
-	(fp_line
+	(fp_rect
 		(start -1.95 -5)
-		(end -1.95 1.41)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -1.95 1.41)
 		(end 13.2 1.41)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 13.2 -5)
-		(end -1.95 -5)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 13.2 1.41)
-		(end 13.2 -5)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -1.45 -4.5)
-		(end -1.45 0.9)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -1.45 0.9)
-		(end 12.7 0.9)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
 	)
 	(fp_line
 		(start -0.5 0.9)
@@ -826,22 +794,14 @@
 		)
 		(layer "F.Fab")
 	)
-	(fp_line
-		(start 12.7 -4.5)
-		(end -1.45 -4.5)
+	(fp_rect
+		(start -1.45 -4.5)
+		(end 12.7 0.9)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 12.7 0.9)
-		(end 12.7 -4.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -926,7 +886,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_Hirose.3dshapes/Hirose_DF13-10P-1.25DS_1x10_P1.25mm_Horizontal.step"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_Hirose.3dshapes/Hirose_DF13-10P-1.25DS_1x10_P1.25mm_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

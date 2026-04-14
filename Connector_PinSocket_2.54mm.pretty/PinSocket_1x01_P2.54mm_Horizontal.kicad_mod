@@ -1,5 +1,5 @@
 (footprint "PinSocket_1x01_P2.54mm_Horizontal"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "Through hole angled socket strip, 1x01, 2.54mm pitch, 8.51mm socket length, single row (from Kicad 4.0.7), script generated")
@@ -24,7 +24,19 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "connector/pin_header_socket"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -10.09 -1.33)
 		(end -10.09 1.33)
@@ -62,8 +74,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -10.09 -0.97909)
-		(end -1.46 -0.97909)
+		(start -10.09 -0.979091)
+		(end -1.46 -0.979091)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -71,8 +83,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -10.09 -0.863635)
-		(end -1.46 -0.863635)
+		(start -10.09 -0.863636)
+		(end -1.46 -0.863636)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -80,8 +92,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -10.09 -0.74818)
-		(end -1.46 -0.74818)
+		(start -10.09 -0.748182)
+		(end -1.46 -0.748182)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -89,8 +101,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -10.09 -0.632725)
-		(end -1.46 -0.632725)
+		(start -10.09 -0.632727)
+		(end -1.46 -0.632727)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -98,8 +110,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -10.09 -0.51727)
-		(end -1.46 -0.51727)
+		(start -10.09 -0.517273)
+		(end -1.46 -0.517273)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -107,8 +119,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -10.09 -0.401815)
-		(end -1.46 -0.401815)
+		(start -10.09 -0.401818)
+		(end -1.46 -0.401818)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -116,8 +128,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -10.09 -0.28636)
-		(end -1.46 -0.28636)
+		(start -10.09 -0.286364)
+		(end -1.46 -0.286364)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -125,8 +137,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -10.09 -0.170905)
-		(end -1.46 -0.170905)
+		(start -10.09 -0.170909)
+		(end -1.46 -0.170909)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -134,8 +146,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -10.09 -0.05545)
-		(end -1.46 -0.05545)
+		(start -10.09 -0.055455)
+		(end -1.46 -0.055455)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -143,8 +155,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -10.09 0.060005)
-		(end -1.46 0.060005)
+		(start -10.09 0.06)
+		(end -1.46 0.06)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -152,8 +164,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -10.09 0.17546)
-		(end -1.46 0.17546)
+		(start -10.09 0.175455)
+		(end -1.46 0.175455)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -161,8 +173,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -10.09 0.290915)
-		(end -1.46 0.290915)
+		(start -10.09 0.290909)
+		(end -1.46 0.290909)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -170,8 +182,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -10.09 0.40637)
-		(end -1.46 0.40637)
+		(start -10.09 0.406364)
+		(end -1.46 0.406364)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -179,8 +191,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -10.09 0.521825)
-		(end -1.46 0.521825)
+		(start -10.09 0.521818)
+		(end -1.46 0.521818)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -188,8 +200,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -10.09 0.63728)
-		(end -1.46 0.63728)
+		(start -10.09 0.637273)
+		(end -1.46 0.637273)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -197,8 +209,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -10.09 0.752735)
-		(end -1.46 0.752735)
+		(start -10.09 0.752727)
+		(end -1.46 0.752727)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -206,8 +218,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -10.09 0.86819)
-		(end -1.46 0.86819)
+		(start -10.09 0.868182)
+		(end -1.46 0.868182)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -215,8 +227,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -10.09 0.983645)
-		(end -1.46 0.983645)
+		(start -10.09 0.983636)
+		(end -1.46 0.983636)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -224,8 +236,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -10.09 1.0991)
-		(end -1.46 1.0991)
+		(start -10.09 1.099091)
+		(end -1.46 1.099091)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -233,8 +245,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -10.09 1.214555)
-		(end -1.46 1.214555)
+		(start -10.09 1.214545)
+		(end -1.46 1.214545)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -296,8 +308,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -10.55 -1.8)
-		(end -10.55 1.75)
+		(start -10.55 -1.75)
+		(end -10.55 1.8)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -305,8 +317,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start -10.55 1.75)
-		(end 1.75 1.75)
+		(start -10.55 1.8)
+		(end 1.75 1.8)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -314,8 +326,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 1.75 -1.8)
-		(end -10.55 -1.8)
+		(start 1.75 -1.75)
+		(end -10.55 -1.75)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -323,8 +335,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 1.75 1.75)
-		(end 1.75 -1.8)
+		(start 1.75 1.8)
+		(end 1.75 -1.75)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -421,7 +433,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x01_P2.54mm_Horizontal.step"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x01_P2.54mm_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

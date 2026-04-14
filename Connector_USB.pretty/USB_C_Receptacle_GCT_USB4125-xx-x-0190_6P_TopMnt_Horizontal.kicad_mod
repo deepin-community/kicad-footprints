@@ -1,7 +1,7 @@
 (footprint "USB_C_Receptacle_GCT_USB4125-xx-x-0190_6P_TopMnt_Horizontal"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "USB Type C Receptacle, GCT, power-only, 6P, top mounted, horizontal, 3A, 1.9mm stake: https://gct.co/files/drawings/usb4125.pdf")
 	(tags "USB C Type-C receptacle power-only charging-only 6P 6C right angled")
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.67 -0.25)
 		(end -4.67 -1.95)
@@ -174,44 +175,44 @@
 		(roundrect_rratio 0.25)
 		(uuid "36af71ba-d3bb-4bc4-8fb5-e165396e98d0")
 	)
-	(pad "S1" thru_hole oval
+	(pad "SH" thru_hole oval
 		(at -4.32 -3)
 		(size 1.1 1.7)
 		(drill oval 0.6 1.2)
-		(property pad_prop_heatsink)
+		(property pad_prop_mechanical)
 		(layers "*.Cu" "*.Mask" "F.Paste")
 		(remove_unused_layers no)
 		(uuid "2142354a-7bd0-4423-8a1c-558a1d965a1c")
 	)
-	(pad "S1" thru_hole oval
+	(pad "SH" thru_hole oval
 		(at -4.32 0.8)
 		(size 1.1 1.7)
 		(drill oval 0.6 1.2)
-		(property pad_prop_heatsink)
+		(property pad_prop_mechanical)
 		(layers "*.Cu" "*.Mask" "F.Paste")
 		(remove_unused_layers no)
 		(uuid "b8a0ae10-9129-44cd-b864-d8e51cc96b1a")
 	)
-	(pad "S1" thru_hole oval
+	(pad "SH" thru_hole oval
 		(at 4.32 -3)
 		(size 1.1 1.7)
 		(drill oval 0.6 1.2)
-		(property pad_prop_heatsink)
+		(property pad_prop_mechanical)
 		(layers "*.Cu" "*.Mask" "F.Paste")
 		(remove_unused_layers no)
 		(uuid "32159377-e4e3-4e2a-8cee-789f4c9872ca")
 	)
-	(pad "S1" thru_hole oval
+	(pad "SH" thru_hole oval
 		(at 4.32 0.8)
 		(size 1.1 1.7)
 		(drill oval 0.6 1.2)
-		(property pad_prop_heatsink)
+		(property pad_prop_mechanical)
 		(layers "*.Cu" "*.Mask" "F.Paste")
 		(remove_unused_layers no)
 		(uuid "78dd2ee1-deea-4d54-83ce-33895a8fe3a2")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4125-xx-x-0190_6P_TopMnt_Horizontal.step"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4125-xx-x-0190_6P_TopMnt_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

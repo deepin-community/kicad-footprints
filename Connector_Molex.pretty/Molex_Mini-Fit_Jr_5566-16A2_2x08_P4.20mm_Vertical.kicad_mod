@@ -1,8 +1,8 @@
 (footprint "Molex_Mini-Fit_Jr_5566-16A2_2x08_P4.20mm_Vertical"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Molex Mini-Fit Jr. Power Connectors, old mpn/engineering number: 5566-16A2, example for new mpn: 39-28-916x, 8 Pins per row, Mounting: Snap-in Plastic Peg PCB Lock (http://www.molex.com/pdm_docs/sd/039289068_sd.pdf), generated with kicad-footprint-generator")
+	(descr "Molex Mini-Fit Jr. Power Connectors, old mpn/engineering number: 5566-16A2, example for new mpn: 39-28-916x, 8 Pins per row, Mounting: Snap-in Plastic Peg PCB Lock (http://www.molex.com/pdm_docs/sd/039289068_sd.pdf)")
 	(tags "connector Molex Mini-Fit_Jr verticalplastic_peg")
 	(property "Reference" "REF**"
 		(at 14.7 -3.45 0)
@@ -24,7 +24,19 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "connector/Molex"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.7 3.28)
 		(end -2.81 3.28)
@@ -289,42 +301,6 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start -2.7 -2.25)
-		(end -2.7 7.35)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -2.7 7.35)
-		(end 32.1 7.35)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -1.65 -1)
-		(end -1.65 2.3)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -1.65 2.3)
-		(end 1.65 2.3)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
 		(start -1.65 4.025)
 		(end -0.825 3.2)
 		(stroke
@@ -370,24 +346,6 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 1.65 -1)
-		(end -1.65 -1)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 1.65 2.3)
-		(end 1.65 -1)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
 		(start 1.65 4.025)
 		(end 1.65 6.5)
 		(stroke
@@ -417,24 +375,6 @@
 	(fp_line
 		(start 2.55 2.3)
 		(end 2.55 -0.175)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 2.55 3.2)
-		(end 2.55 6.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 2.55 6.5)
-		(end 5.85 6.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -478,24 +418,6 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 5.85 3.2)
-		(end 2.55 3.2)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 5.85 6.5)
-		(end 5.85 3.2)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
 		(start 6.75 -0.175)
 		(end 7.575 -1)
 		(stroke
@@ -507,24 +429,6 @@
 	(fp_line
 		(start 6.75 2.3)
 		(end 6.75 -0.175)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 6.75 3.2)
-		(end 6.75 6.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 6.75 6.5)
-		(end 10.05 6.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -561,42 +465,6 @@
 	(fp_line
 		(start 10.05 2.3)
 		(end 6.75 2.3)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 10.05 3.2)
-		(end 6.75 3.2)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 10.05 6.5)
-		(end 10.05 3.2)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 10.95 -1)
-		(end 10.95 2.3)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 10.95 2.3)
-		(end 14.25 2.3)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -658,24 +526,6 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 14.25 -1)
-		(end 10.95 -1)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 14.25 2.3)
-		(end 14.25 -1)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
 		(start 14.25 4.025)
 		(end 14.25 6.5)
 		(stroke
@@ -687,24 +537,6 @@
 	(fp_line
 		(start 14.25 6.5)
 		(end 10.95 6.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 15.15 -1)
-		(end 15.15 2.3)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 15.15 2.3)
-		(end 18.45 2.3)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -757,24 +589,6 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 18.45 -1)
-		(end 15.15 -1)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 18.45 2.3)
-		(end 18.45 -1)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
 		(start 18.45 4.025)
 		(end 18.45 6.5)
 		(stroke
@@ -804,24 +618,6 @@
 	(fp_line
 		(start 19.35 2.3)
 		(end 19.35 -0.175)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 19.35 3.2)
-		(end 19.35 6.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 19.35 6.5)
-		(end 22.65 6.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -865,24 +661,6 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 22.65 3.2)
-		(end 19.35 3.2)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 22.65 6.5)
-		(end 22.65 3.2)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
 		(start 23.55 -0.175)
 		(end 24.375 -1)
 		(stroke
@@ -894,24 +672,6 @@
 	(fp_line
 		(start 23.55 2.3)
 		(end 23.55 -0.175)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 23.55 3.2)
-		(end 23.55 6.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 23.55 6.5)
-		(end 26.85 6.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -955,42 +715,6 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 26.85 3.2)
-		(end 23.55 3.2)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 26.85 6.5)
-		(end 26.85 3.2)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 27.75 -1)
-		(end 27.75 2.3)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 27.75 2.3)
-		(end 31.05 2.3)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
 		(start 27.75 4.025)
 		(end 28.575 3.2)
 		(stroke
@@ -1027,24 +751,6 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 31.05 -1)
-		(end 27.75 -1)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 31.05 2.3)
-		(end 31.05 -1)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
 		(start 31.05 4.025)
 		(end 31.05 6.5)
 		(stroke
@@ -1056,24 +762,6 @@
 	(fp_line
 		(start 31.05 6.5)
 		(end 27.75 6.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 32.1 -2.25)
-		(end -2.7 -2.25)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 32.1 7.35)
-		(end 32.1 -2.25)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -1096,6 +784,96 @@
 			(width 0.1)
 			(type solid)
 		)
+		(layer "F.Fab")
+	)
+	(fp_rect
+		(start -2.7 -2.25)
+		(end 32.1 7.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_rect
+		(start -1.65 -1)
+		(end 1.65 2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_rect
+		(start 2.55 3.2)
+		(end 5.85 6.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_rect
+		(start 6.75 3.2)
+		(end 10.05 6.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_rect
+		(start 10.95 -1)
+		(end 14.25 2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_rect
+		(start 15.15 -1)
+		(end 18.45 2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_rect
+		(start 19.35 3.2)
+		(end 22.65 6.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_rect
+		(start 23.55 3.2)
+		(end 26.85 6.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_rect
+		(start 27.75 -1)
+		(end 31.05 2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_arc
@@ -1254,7 +1032,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Mini-Fit_Jr_5566-16A2_2x08_P4.20mm_Vertical.step"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Mini-Fit_Jr_5566-16A2_2x08_P4.20mm_Vertical.step"
 		(offset
 			(xyz 0 0 0)
 		)

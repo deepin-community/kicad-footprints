@@ -1,8 +1,8 @@
 (footprint "LQFP-80_12x12mm_P0.5mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "LQFP, 80 Pin (https://www.nxp.com/docs/en/package-information/SOT315-1.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(descr "LQFP, 80 Pin (https://www.nxp.com/docs/en/package-information/SOT315-1.pdf)")
 	(tags "LQFP QFP")
 	(property "Reference" "REF**"
 		(at 0 -8.38 0)
@@ -24,10 +24,31 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "package/gullwing"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -6.11 -6.11)
-		(end -6.11 -5.135)
+		(end -5.135 -6.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -6.11 -5.135)
+		(end -6.11 -6.11)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -37,15 +58,6 @@
 	(fp_line
 		(start -6.11 6.11)
 		(end -6.11 5.135)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -5.135 -6.11)
-		(end -6.11 -6.11)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -71,15 +83,6 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 5.135 6.11)
-		(end 6.11 6.11)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
 		(start 6.11 -6.11)
 		(end 6.11 -5.135)
 		(stroke
@@ -89,8 +92,17 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
+		(start 6.11 5.135)
+		(end 6.11 6.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
 		(start 6.11 6.11)
-		(end 6.11 5.135)
+		(end 5.135 6.11)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -99,9 +111,9 @@
 	)
 	(fp_poly
 		(pts
-			(xy -6.7125 -5.135)
-			(xy -7.0525 -5.605)
-			(xy -6.3725 -5.605)
+			(xy -6.75 -5.14)
+			(xy -7.09 -5.61)
+			(xy -6.41 -5.61)
 		)
 		(stroke
 			(width 0.12)
@@ -290,49 +302,19 @@
 		)
 		(layer "F.CrtYd")
 	)
-	(fp_line
-		(start -6 -5)
-		(end -5 -6)
+	(fp_poly
+		(pts
+			(xy -5 -6)
+			(xy 6 -6)
+			(xy 6 6)
+			(xy -6 6)
+			(xy -6 -5)
+		)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -6 6)
-		(end -6 -5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -5 -6)
-		(end 6 -6)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 6 -6)
-		(end 6 6)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 6 6)
-		(end -6 6)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -826,7 +808,7 @@
 		(roundrect_rratio 0.25)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_QFP.3dshapes/LQFP-80_12x12mm_P0.5mm.step"
+	(model "${KICAD10_3DMODEL_DIR}/Package_QFP.3dshapes/LQFP-80_12x12mm_P0.5mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

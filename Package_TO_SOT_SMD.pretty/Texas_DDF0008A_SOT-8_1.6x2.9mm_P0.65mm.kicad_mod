@@ -1,8 +1,8 @@
 (footprint "Texas_DDF0008A_SOT-8_1.6x2.9mm_P0.65mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Texas DDF0008A SOT, 8 Pin (https://www.ti.com/lit/ds/symlink/mspm0c1104.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(descr "Texas DDF0008A SOT, 8 Pin (https://www.ti.com/lit/ds/symlink/mspm0c1104.pdf)")
 	(tags "Texas SOT TO_SOT_SMD")
 	(property "Reference" "REF**"
 		(at 0 -2.4 0)
@@ -24,10 +24,22 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "package/gullwing"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start 0 -1.56)
-		(end -0.8 -1.56)
+		(start -0.91 -1.56)
+		(end 0.91 -1.56)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -35,8 +47,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 0 -1.56)
-		(end 0.8 -1.56)
+		(start -0.91 -1.46)
+		(end -0.91 -1.56)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -44,8 +56,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 0 1.56)
-		(end -0.8 1.56)
+		(start -0.91 1.56)
+		(end -0.91 1.46)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -53,8 +65,26 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 0 1.56)
-		(end 0.8 1.56)
+		(start 0.91 -1.56)
+		(end 0.91 -1.46)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 0.91 1.46)
+		(end 0.91 1.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 0.91 1.56)
+		(end -0.91 1.56)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -63,9 +93,9 @@
 	)
 	(fp_poly
 		(pts
-			(xy -1.3125 -1.46)
-			(xy -1.5525 -1.79)
-			(xy -1.0725 -1.79)
+			(xy -1.45 -1.47)
+			(xy -1.69 -1.8)
+			(xy -1.21 -1.8)
 		)
 		(stroke
 			(width 0.12)
@@ -182,58 +212,28 @@
 		)
 		(layer "F.CrtYd")
 	)
-	(fp_line
-		(start -0.8 -1.05)
-		(end -0.4 -1.45)
+	(fp_poly
+		(pts
+			(xy -0.4 -1.45)
+			(xy 0.8 -1.45)
+			(xy 0.8 1.45)
+			(xy -0.8 1.45)
+			(xy -0.8 -1.05)
+		)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -0.8 1.45)
-		(end -0.8 -1.05)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -0.4 -1.45)
-		(end 0.8 -1.45)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 0.8 -1.45)
-		(end 0.8 1.45)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 0.8 1.45)
-		(end -0.8 1.45)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 0 90)
 		(layer "F.Fab")
 		(effects
 			(font
-				(size 0.4 0.4)
-				(thickness 0.06)
+				(size 0.73 0.73)
+				(thickness 0.11)
 			)
 		)
 	)
@@ -286,7 +286,7 @@
 		(roundrect_rratio 0.25)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/Texas_DDF0008A_SOT-8_1.6x2.9mm_P0.65mm.step"
+	(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/Texas_DDF0008A_SOT-8_1.6x2.9mm_P0.65mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

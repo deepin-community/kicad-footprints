@@ -1,5 +1,5 @@
 (footprint "Potentiometer_ACP_CA9-V10_Vertical"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "Potentiometer, vertical, ACP CA9-V10, http://www.acptechnologies.com/wp-content/uploads/2017/05/02-ACP-CA9-CE9.pdf")
@@ -24,16 +24,19 @@
 			)
 		)
 	)
-	(attr through_hole)
-	(fp_line
-		(start -0.11 -7.51)
-		(end -0.11 -6.396)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
+	(property "KiLib_Generator" "potentiometer/THT"
+		(at 0 0 0)
 		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
 	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.11 -7.51)
 		(end 10.11 -7.51)
@@ -44,8 +47,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -0.11 -3.604)
-		(end -0.11 -1.396)
+		(start -0.11 -6.396)
+		(end -0.11 -7.51)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -53,8 +56,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -0.11 1.396)
-		(end -0.11 2.51)
+		(start -0.11 -1.396)
+		(end -0.11 -3.604)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -63,7 +66,7 @@
 	)
 	(fp_line
 		(start -0.11 2.51)
-		(end 10.11 2.51)
+		(end -0.11 1.396)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -82,6 +85,15 @@
 	(fp_line
 		(start 10.11 -1.104)
 		(end 10.11 2.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 10.11 2.51)
+		(end -0.11 2.51)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -150,7 +162,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_ACP_CA9-V10_Vertical.step"
+	(model "${KICAD10_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_ACP_CA9-V10_Vertical.step"
 		(offset
 			(xyz 0 0 0)
 		)

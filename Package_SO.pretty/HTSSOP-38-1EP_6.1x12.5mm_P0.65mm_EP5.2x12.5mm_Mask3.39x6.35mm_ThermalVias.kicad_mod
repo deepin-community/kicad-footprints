@@ -1,9 +1,9 @@
 (footprint "HTSSOP-38-1EP_6.1x12.5mm_P0.65mm_EP5.2x12.5mm_Mask3.39x6.35mm_ThermalVias"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "HTSSOP, 38 Pin (http://www.ti.com/lit/ds/symlink/tlc5951.pdf#page=46), generated with kicad-footprint-generator ipc_gullwing_generator.py")
-	(tags "HTSSOP SO TI-DAP/R-PDSO-G38")
+	(descr "HTSSOP, 38 Pin (https://www.ti.com/jp/lit/ml/pptd158c/pptd158c.pdf)")
+	(tags "HTSSOP SO Texas_DAP Texas_R-PDSO-G38")
 	(property "Reference" "REF**"
 		(at 0 -7.2 0)
 		(layer "F.SilkS")
@@ -24,10 +24,22 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "package/gullwing"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -2.835584 -6.36)
-		(end -3.05 -6.36)
+		(start -3.16 -6.36)
+		(end -2.86 -6.36)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -35,8 +47,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -2.835584 6.36)
-		(end -3.05 6.36)
+		(start -3.16 -6.31)
+		(end -3.16 -6.36)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -44,8 +56,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 2.835584 -6.36)
-		(end 3.05 -6.36)
+		(start -3.16 6.36)
+		(end -3.16 6.31)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -53,8 +65,44 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 2.835584 6.36)
-		(end 3.05 6.36)
+		(start -2.86 6.36)
+		(end -3.16 6.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 2.86 -6.36)
+		(end 3.16 -6.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 3.16 -6.36)
+		(end 3.16 -6.31)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 3.16 6.31)
+		(end 3.16 6.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 3.16 6.36)
+		(end 2.86 6.36)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -63,9 +111,9 @@
 	)
 	(fp_poly
 		(pts
-			(xy -3.775 -6.31)
-			(xy -4.015 -6.64)
-			(xy -3.535 -6.64)
+			(xy -3.72 -6.31)
+			(xy -3.96 -6.64)
+			(xy -3.48 -6.64)
 		)
 		(stroke
 			(width 0.12)
@@ -182,49 +230,19 @@
 		)
 		(layer "F.CrtYd")
 	)
-	(fp_line
-		(start -3.05 -5.25)
-		(end -2.05 -6.25)
+	(fp_poly
+		(pts
+			(xy -2.05 -6.25)
+			(xy 3.05 -6.25)
+			(xy 3.05 6.25)
+			(xy -3.05 6.25)
+			(xy -3.05 -5.25)
+		)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -3.05 6.25)
-		(end -3.05 -5.25)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -2.05 -6.25)
-		(end 3.05 -6.25)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 3.05 -6.25)
-		(end 3.05 6.25)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 3.05 6.25)
-		(end -3.05 6.25)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -841,7 +859,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/HTSSOP-38-1EP_6.1x12.5mm_P0.65mm_EP5.2x12.5mm_Mask3.39x6.35mm.step"
+	(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/HTSSOP-38-1EP_6.1x12.5mm_P0.65mm_EP5.2x12.5mm_Mask3.39x6.35mm.step"
 		(offset
 			(xyz 0 0 0)
 		)
