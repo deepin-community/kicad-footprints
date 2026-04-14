@@ -1,8 +1,8 @@
 (footprint "Molex_Picoflex_90814-0004_2x02_P1.27mm_Vertical"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Molex Picoflex Ribbon-Cable Connectors, 90814-0004, 4 Pins (http://www.molex.com/pdm_docs/sd/908140004_sd.pdf), generated with kicad-footprint-generator")
+	(descr "Molex Picoflex Ribbon-Cable Connectors, 90814-0004, 4 Pins (http://www.molex.com/pdm_docs/sd/908140004_sd.pdf)")
 	(tags "connector Molex Picoflex vertical")
 	(property "Reference" "REF**"
 		(at 0 -6.16 0)
@@ -24,7 +24,19 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "connector/Molex"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.81 -2.93)
 		(end -2.81 -2.8)
@@ -127,15 +139,6 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -3.95 -4.43)
-		(end -3.95 4.43)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-	)
-	(fp_line
 		(start -3.95 -1.89)
 		(end -1.41 -4.43)
 		(stroke
@@ -156,15 +159,6 @@
 	(fp_line
 		(start -3.95 3.19)
 		(end 3.67 -4.43)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-	)
-	(fp_line
-		(start -3.95 4.43)
-		(end 3.95 4.43)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -198,58 +192,24 @@
 		)
 		(layer "Dwgs.User")
 	)
-	(fp_line
-		(start 3.95 -4.43)
-		(end -3.95 -4.43)
+	(fp_rect
+		(start -3.95 -4.43)
+		(end 3.95 4.43)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
+		(fill no)
 		(layer "Dwgs.User")
 	)
-	(fp_line
-		(start 3.95 4.43)
-		(end 3.95 -4.43)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-	)
-	(fp_line
+	(fp_rect
 		(start -4.5 -5.46)
-		(end -4.5 5.46)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -4.5 5.46)
 		(end 4.5 5.46)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 4.5 -5.46)
-		(end -4.5 -5.46)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 4.5 5.46)
-		(end 4.5 -5.46)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.CrtYd")
 	)
 	(fp_line
@@ -388,7 +348,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Picoflex_90814-0004_2x02_P1.27mm_Vertical.step"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Picoflex_90814-0004_2x02_P1.27mm_Vertical.step"
 		(offset
 			(xyz 0 0 0)
 		)

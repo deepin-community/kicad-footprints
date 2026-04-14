@@ -1,5 +1,5 @@
 (footprint "PhoenixContact_MSTBA_2,5_7-G_1x07_P5.00mm_Horizontal"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "Generic Phoenix Contact connector footprint for: MSTBA_2,5/7-G; number of pins: 07; pin pitch: 5.00mm; Angled || order number: 1757493 12A || order number: 1923801 16A (HC)")
@@ -24,43 +24,19 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "connector/PhoenixContact"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr through_hole)
-	(fp_line
-		(start -3.61 -2.11)
-		(end -3.61 10.11)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -3.61 6.81)
-		(end 33.61 6.81)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -3.61 8.61)
-		(end -3.61 6.81)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -3.61 10.11)
-		(end 33.61 10.11)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1 10.11)
 		(end 1 10.11)
@@ -340,95 +316,35 @@
 		)
 		(layer "F.SilkS")
 	)
-	(fp_line
-		(start 33.61 -2.11)
-		(end -3.61 -2.11)
+	(fp_rect
+		(start -3.61 -2.11)
+		(end 33.61 10.11)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.SilkS")
 	)
-	(fp_line
-		(start 33.61 6.81)
+	(fp_rect
+		(start -3.61 6.81)
 		(end 33.61 8.61)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.SilkS")
 	)
-	(fp_line
-		(start 33.61 8.61)
-		(end -3.61 8.61)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 33.61 10.11)
-		(end 33.61 -2.11)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
+	(fp_rect
 		(start -4 -2.5)
-		(end -4 10.5)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -4 10.5)
 		(end 34 10.5)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 34 -2.5)
-		(end -4 -2.5)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 34 10.5)
-		(end 34 -2.5)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -3.5 -2)
-		(end -3.5 10)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -3.5 10)
-		(end 33.5 10)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
 	)
 	(fp_line
 		(start 0 -0.5)
@@ -448,22 +364,14 @@
 		)
 		(layer "F.Fab")
 	)
-	(fp_line
-		(start 33.5 -2)
-		(end -3.5 -2)
+	(fp_rect
+		(start -3.5 -2)
+		(end 33.5 10)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 33.5 10)
-		(end 33.5 -2)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -527,7 +435,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_Phoenix_MSTB.3dshapes/PhoenixContact_MSTBA_2,5_7-G_1x07_P5.00mm_Horizontal.step"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_Phoenix_MSTB.3dshapes/PhoenixContact_MSTBA_2,5_7-G_1x07_P5.00mm_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

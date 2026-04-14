@@ -1,8 +1,8 @@
 (footprint "SolderWire-1.5sqmm_1x03_P6mm_D1.7mm_OD3mm_Relief"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Soldered wire connection with feed through strain relief, for 3 times 1.5 mm² wires, basic insulation, conductor diameter 1.7mm, outer diameter 3mm, size source Multi-Contact FLEXI-E 1.5 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+	(descr "Soldered wire connection with feed through strain relief, for 3 times 1.5 mm² wires, basic insulation, conductor diameter 1.7mm, outer diameter 3mm, size source Multi-Contact FLEXI-E 1.5 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter")
 	(tags "connector wire 1.5sqmm strain-relief")
 	(property "Reference" "REF**"
 		(at 6 -2.78 0)
@@ -24,7 +24,19 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "connector/wire"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.61 1.835)
 		(end -1.61 16.39)
@@ -79,220 +91,64 @@
 		)
 		(layer "F.SilkS")
 	)
-	(fp_line
+	(fp_rect
 		(start -2.25 15.75)
-		(end -2.25 20.25)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "B.CrtYd")
-	)
-	(fp_line
-		(start -2.25 20.25)
 		(end 2.25 20.25)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "B.CrtYd")
 	)
-	(fp_line
-		(start 2.25 15.75)
-		(end -2.25 15.75)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "B.CrtYd")
-	)
-	(fp_line
-		(start 2.25 20.25)
-		(end 2.25 15.75)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "B.CrtYd")
-	)
-	(fp_line
+	(fp_rect
 		(start 3.75 15.75)
-		(end 3.75 20.25)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "B.CrtYd")
-	)
-	(fp_line
-		(start 3.75 20.25)
 		(end 8.25 20.25)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "B.CrtYd")
 	)
-	(fp_line
-		(start 8.25 15.75)
-		(end 3.75 15.75)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "B.CrtYd")
-	)
-	(fp_line
-		(start 8.25 20.25)
-		(end 8.25 15.75)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "B.CrtYd")
-	)
-	(fp_line
+	(fp_rect
 		(start 9.75 15.75)
-		(end 9.75 20.25)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "B.CrtYd")
-	)
-	(fp_line
-		(start 9.75 20.25)
 		(end 14.25 20.25)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "B.CrtYd")
 	)
-	(fp_line
-		(start 14.25 15.75)
-		(end 9.75 15.75)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "B.CrtYd")
-	)
-	(fp_line
-		(start 14.25 20.25)
-		(end 14.25 15.75)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "B.CrtYd")
-	)
-	(fp_line
+	(fp_rect
 		(start -2.25 -2.08)
-		(end -2.25 20.25)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -2.25 20.25)
 		(end 2.25 20.25)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
 	)
-	(fp_line
-		(start 2.25 -2.08)
-		(end -2.25 -2.08)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 2.25 20.25)
-		(end 2.25 -2.08)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
+	(fp_rect
 		(start 3.75 -2.08)
-		(end 3.75 20.25)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 3.75 20.25)
 		(end 8.25 20.25)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
 	)
-	(fp_line
-		(start 8.25 -2.08)
-		(end 3.75 -2.08)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 8.25 20.25)
-		(end 8.25 -2.08)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
+	(fp_rect
 		(start 9.75 -2.08)
-		(end 9.75 20.25)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 9.75 20.25)
 		(end 14.25 20.25)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 14.25 -2.08)
-		(end 9.75 -2.08)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 14.25 20.25)
-		(end 14.25 -2.08)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.CrtYd")
 	)
 	(fp_line
@@ -460,7 +316,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-1.5sqmm_1x03_P6mm_D1.7mm_OD3mm_Relief.step"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-1.5sqmm_1x03_P6mm_D1.7mm_OD3mm_Relief.step"
 		(offset
 			(xyz 0 0 0)
 		)

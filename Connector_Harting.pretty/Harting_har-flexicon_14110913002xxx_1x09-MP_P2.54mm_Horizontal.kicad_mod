@@ -1,8 +1,8 @@
 (footprint "Harting_har-flexicon_14110913002xxx_1x09-MP_P2.54mm_Horizontal"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Harting har-flexicon series connector, 14110913002xxx (https://b2b.harting.com/files/download/PRD/PDF_TS/1411XX13002XXX_100228421DRW035C.pdf), generated with kicad-footprint-generator")
+	(descr "Harting har-flexicon series connector, 14110913002xxx (https://b2b.harting.com/files/download/PRD/PDF_TS/1411XX13002XXX_100228421DRW035C.pdf)")
 	(tags "connector Harting har-flexicon horizontal")
 	(property "Reference" "REF**"
 		(at 0 -5.8 0)
@@ -24,7 +24,19 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "connector/Harting"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -14.195 -4.06)
 		(end -14.195 2.61)
@@ -151,59 +163,15 @@
 		)
 		(layer "F.SilkS")
 	)
-	(fp_line
+	(fp_rect
 		(start -14.31 -4.8)
-		(end -14.31 13)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -14.31 13)
 		(end 14.31 13)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 14.31 -4.8)
-		(end -14.31 -4.8)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 14.31 13)
-		(end 14.31 -4.8)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -14.085 -3.95)
-		(end -14.085 2.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -14.085 2.5)
-		(end 14.085 2.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
 	)
 	(fp_line
 		(start -10.66 2.5)
@@ -223,22 +191,14 @@
 		)
 		(layer "F.Fab")
 	)
-	(fp_line
-		(start 14.085 -3.95)
-		(end -14.085 -3.95)
+	(fp_rect
+		(start -14.085 -3.95)
+		(end 14.085 2.5)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 14.085 2.5)
-		(end 14.085 -3.95)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -319,7 +279,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_Harting.3dshapes/Harting_har-flexicon_14110913002xxx_1x09-MP_P2.54mm_Horizontal.step"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_Harting.3dshapes/Harting_har-flexicon_14110913002xxx_1x09-MP_P2.54mm_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

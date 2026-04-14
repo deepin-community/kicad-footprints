@@ -1,5 +1,5 @@
 (footprint "DSUB-15_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "15-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, pins (male), pitch 2.77x2.84mm, pin-PCB-offset 9.9mm, distance of mounting holes 33.3mm, distance of mounting holes to PCB edge 11.32mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf")
@@ -24,7 +24,19 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "connector/D_sub"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -9.965 -1.86)
 		(end 29.355 -1.86)
@@ -79,95 +91,15 @@
 		)
 		(layer "F.SilkS")
 	)
-	(fp_line
+	(fp_rect
 		(start -10.41 -2.31)
-		(end -10.41 19.64)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -10.41 19.64)
 		(end 29.8 19.64)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 29.8 -2.31)
-		(end -10.41 -2.31)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 29.8 19.64)
-		(end 29.8 -2.31)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -9.905 -1.8)
-		(end -9.905 12.74)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -9.905 12.74)
-		(end -9.905 13.14)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -9.905 12.74)
-		(end 29.295 12.74)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -9.905 13.14)
-		(end 29.295 13.14)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -9.455 13.14)
-		(end -9.455 18.14)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -9.455 18.14)
-		(end -4.455 18.14)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
 	)
 	(fp_line
 		(start -8.555 12.74)
@@ -181,78 +113,6 @@
 	(fp_line
 		(start -5.355 12.74)
 		(end -5.355 1.42)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -4.455 13.14)
-		(end -9.455 13.14)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -4.455 18.14)
-		(end -4.455 13.14)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -2.605 13.14)
-		(end -2.605 19.14)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -2.605 19.14)
-		(end 21.995 19.14)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 21.995 13.14)
-		(end -2.605 13.14)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 21.995 19.14)
-		(end 21.995 13.14)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 23.845 13.14)
-		(end 23.845 18.14)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 23.845 18.14)
-		(end 28.845 18.14)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -277,58 +137,54 @@
 		)
 		(layer "F.Fab")
 	)
-	(fp_line
-		(start 28.845 13.14)
-		(end 23.845 13.14)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 28.845 18.14)
-		(end 28.845 13.14)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 29.295 -1.8)
-		(end -9.905 -1.8)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 29.295 12.74)
-		(end -9.905 12.74)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 29.295 12.74)
-		(end 29.295 -1.8)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 29.295 13.14)
+	(fp_rect
+		(start -9.905 -1.8)
 		(end 29.295 12.74)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_rect
+		(start -9.905 12.74)
+		(end 29.295 13.14)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_rect
+		(start -9.455 13.14)
+		(end -4.455 18.14)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_rect
+		(start -2.605 13.14)
+		(end 21.995 19.14)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_rect
+		(start 23.845 13.14)
+		(end 28.845 18.14)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_arc
@@ -360,20 +216,6 @@
 				(thickness 0.15)
 			)
 		)
-	)
-	(pad "0" thru_hole circle
-		(at -6.955 1.42)
-		(size 4 4)
-		(drill 3.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-	)
-	(pad "0" thru_hole circle
-		(at 26.345 1.42)
-		(size 4 4)
-		(drill 3.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
 	)
 	(pad "1" thru_hole rect
 		(at 0 0)
@@ -480,8 +322,27 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 	)
+	(pad "SH" thru_hole circle
+		(at -6.955 1.42)
+		(size 4 4)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+	)
+	(pad "SH" thru_hole circle
+		(at 26.345 1.42)
+		(size 4 4)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+	)
+	(point
+		(at 9.695 12.74)
+		(size 2)
+		(layer "F.Fab")
+	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_Dsub.3dshapes/DSUB-15_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm.step"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_Dsub.3dshapes/DSUB-15_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,8 +1,8 @@
 (footprint "Winson_GM-402B_5x5mm_P1.27mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Winson GM-402B QFN, 8 Pin (https://www.winsen-sensor.com/d/files/me2/mems--gm-402b--manual-v1_1.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(descr "Winson GM-402B QFN, 8 Pin (https://www.winsen-sensor.com/d/files/me2/mems--gm-402b--manual-v1_1.pdf)")
 	(tags "Winson QFN NoLead")
 	(property "Reference" "REF**"
 		(at 0 -3.8 0)
@@ -24,10 +24,31 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "package/no_lead"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.61 -2.61)
+		(end -0.585 -2.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
 	(fp_line
 		(start -2.61 -1.855)
-		(end -2.61 -2.37)
+		(end -2.61 -2.61)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -37,15 +58,6 @@
 	(fp_line
 		(start -2.61 2.61)
 		(end -2.61 1.855)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -0.585 -2.61)
-		(end -2.31 -2.61)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -71,15 +83,6 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 0.585 2.61)
-		(end 2.61 2.61)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
 		(start 2.61 -2.61)
 		(end 2.61 -1.855)
 		(stroke
@@ -89,8 +92,17 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
+		(start 2.61 1.855)
+		(end 2.61 2.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
 		(start 2.61 2.61)
-		(end 2.61 1.855)
+		(end 0.585 2.61)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -99,9 +111,9 @@
 	)
 	(fp_poly
 		(pts
-			(xy -2.61 -2.61)
-			(xy -2.85 -2.94)
-			(xy -2.37 -2.94)
+			(xy -3.11 -1.27)
+			(xy -3.44 -1.03)
+			(xy -3.44 -1.51)
 		)
 		(stroke
 			(width 0.12)
@@ -292,11 +304,11 @@
 	)
 	(fp_poly
 		(pts
-			(xy -2.5 -1.5)
-			(xy -2.5 2.5)
-			(xy 2.5 2.5)
-			(xy 2.5 -2.5)
 			(xy -1.5 -2.5)
+			(xy 2.5 -2.5)
+			(xy 2.5 2.5)
+			(xy -2.5 2.5)
+			(xy -2.5 -1.5)
 		)
 		(stroke
 			(width 0.1)
@@ -364,7 +376,7 @@
 		(roundrect_rratio 0.25)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Sensor.3dshapes/Winson_GM-402B_5x5mm_P1.27mm.step"
+	(model "${KICAD10_3DMODEL_DIR}/Sensor.3dshapes/Winson_GM-402B_5x5mm_P1.27mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

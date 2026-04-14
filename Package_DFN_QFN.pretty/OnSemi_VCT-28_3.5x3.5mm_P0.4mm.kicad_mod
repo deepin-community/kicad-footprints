@@ -1,8 +1,8 @@
 (footprint "OnSemi_VCT-28_3.5x3.5mm_P0.4mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "OnSemi  VCT, 28 Pin (http://www.onsemi.com/pub/Collateral/601AE.PDF), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(descr "OnSemi  VCT, 28 Pin (http://www.onsemi.com/pub/Collateral/601AE.PDF)")
 	(tags "OnSemi VCT NoLead")
 	(property "Reference" "REF**"
 		(at 0 -3.05 0)
@@ -24,7 +24,37 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "package/no_lead"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.86 -1.86)
+		(end -1.56 -1.86)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -1.86 -1.56)
+		(end -1.86 -1.86)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
 	(fp_line
 		(start -1.86 1.86)
 		(end -1.86 1.56)
@@ -53,15 +83,6 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 1.56 1.86)
-		(end 1.86 1.86)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
 		(start 1.86 -1.86)
 		(end 1.86 -1.56)
 		(stroke
@@ -71,8 +92,17 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
+		(start 1.86 1.56)
+		(end 1.86 1.86)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
 		(start 1.86 1.86)
-		(end 1.86 1.56)
+		(end 1.56 1.86)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -81,9 +111,9 @@
 	)
 	(fp_poly
 		(pts
-			(xy -1.86 -1.86)
-			(xy -2.1 -2.19)
-			(xy -1.62 -2.19)
+			(xy -2.37 -1.21)
+			(xy -2.7 -0.97)
+			(xy -2.7 -1.45)
 		)
 		(stroke
 			(width 0.12)
@@ -274,11 +304,11 @@
 	)
 	(fp_poly
 		(pts
-			(xy -1.75 -0.875)
-			(xy -1.75 1.75)
-			(xy 1.75 1.75)
-			(xy 1.75 -1.75)
 			(xy -0.875 -1.75)
+			(xy 1.75 -1.75)
+			(xy 1.75 1.75)
+			(xy -1.75 1.75)
+			(xy -1.75 -0.875)
 		)
 		(stroke
 			(width 0.1)
@@ -594,7 +624,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/OnSemi_VCT-28_3.5x3.5mm_P0.4mm.step"
+	(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/OnSemi_VCT-28_3.5x3.5mm_P0.4mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

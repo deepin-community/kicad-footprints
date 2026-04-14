@@ -1,5 +1,5 @@
 (footprint "Samtec_T1M-16-X-SH-L_1x16-1MP_P1.0mm_Terminal_Horizontal_Latch"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)")
@@ -24,7 +24,19 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "connector/generator"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -9.31 -2.71)
 		(end -8.06 -2.71)
@@ -133,40 +145,14 @@
 		)
 		(layer "F.SilkS")
 	)
-	(fp_line
+	(fp_rect
 		(start -9.71 -4.05)
-		(end -9.71 3.1)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -9.71 3.1)
 		(end 9.71 3.1)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 9.71 -4.05)
-		(end -9.71 -4.05)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 9.71 3.1)
-		(end 9.71 -4.05)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.CrtYd")
 	)
 	(fp_line
@@ -360,7 +346,7 @@
 		(roundrect_rratio 0.25)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_Samtec_MicroMate.3dshapes/Samtec_T1M-16-X-SH-L_1x16-1MP_P1.0mm_Terminal_Horizontal_Latch.step"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_Samtec_MicroMate.3dshapes/Samtec_T1M-16-X-SH-L_1x16-1MP_P1.0mm_Terminal_Horizontal_Latch.step"
 		(offset
 			(xyz 0 0 0)
 		)

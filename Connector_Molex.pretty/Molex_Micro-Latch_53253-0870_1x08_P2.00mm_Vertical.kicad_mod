@@ -1,8 +1,8 @@
 (footprint "Molex_Micro-Latch_53253-0870_1x08_P2.00mm_Vertical"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Molex Micro-Latch Wire-to-Board Connector System, 53253-0870 (compatible alternatives: 53253-0850), 8 Pins per row (http://www.molex.com/pdm_docs/sd/532530770_sd.pdf), generated with kicad-footprint-generator")
+	(descr "Molex Micro-Latch Wire-to-Board Connector System, 53253-0870 (compatible alternatives: 53253-0850), 8 Pins per row (http://www.molex.com/pdm_docs/sd/532530770_sd.pdf)")
 	(tags "connector Molex Micro-Latch vertical")
 	(property "Reference" "REF**"
 		(at 7 -2.7 0)
@@ -24,7 +24,19 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "connector/Molex"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.41 -1.91)
 		(end -2.41 0.39)
@@ -35,26 +47,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -2.11 -1.61)
-		(end -2.11 2.26)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
 		(start -2.11 0.8)
 		(end -1.71 0.8)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -2.11 2.26)
-		(end 16.11 2.26)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -179,15 +173,6 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 16.11 -1.61)
-		(end -2.11 -1.61)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
 		(start 16.11 0.8)
 		(end 15.71 0.8)
 		(stroke
@@ -196,68 +181,25 @@
 		)
 		(layer "F.SilkS")
 	)
-	(fp_line
-		(start 16.11 2.26)
-		(end 16.11 -1.61)
+	(fp_rect
+		(start -2.11 -1.61)
+		(end 16.11 2.26)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.SilkS")
 	)
-	(fp_line
+	(fp_rect
 		(start -2.5 -2)
-		(end -2.5 2.65)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -2.5 2.65)
 		(end 16.5 2.65)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 16.5 -2)
-		(end -2.5 -2)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 16.5 2.65)
-		(end 16.5 -2)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -2 -1.5)
-		(end -2 2.15)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -2 2.15)
-		(end 16 2.15)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
 	)
 	(fp_line
 		(start -0.5 -1.5)
@@ -277,22 +219,14 @@
 		)
 		(layer "F.Fab")
 	)
-	(fp_line
-		(start 16 -1.5)
-		(end -2 -1.5)
+	(fp_rect
+		(start -2 -1.5)
+		(end 16 2.15)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 16 2.15)
-		(end 16 -1.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -363,7 +297,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Latch_53253-0870_1x08_P2.00mm_Vertical.step"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Latch_53253-0870_1x08_P2.00mm_Vertical.step"
 		(offset
 			(xyz 0 0 0)
 		)

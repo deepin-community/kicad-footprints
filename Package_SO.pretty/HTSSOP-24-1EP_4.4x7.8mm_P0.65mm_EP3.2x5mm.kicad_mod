@@ -1,8 +1,8 @@
 (footprint "HTSSOP-24-1EP_4.4x7.8mm_P0.65mm_EP3.2x5mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "HTSSOP, 24 Pin (https://www.st.com/resource/en/datasheet/stp16cp05.pdf#page=25), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(descr "HTSSOP, 24 Pin (JEDEC MO-153 variation ADT, 1.00mm body thickness, custom Exposed Pad size from STMicroelectronics, https://www.jedec.org/document_search?search_api_views_fulltext=MO-153, https://www.st.com/resource/en/datasheet/stp16cp05.pdf#page=25, https://www.st.com/resource/en/datasheet/led1642gw.pdf#page=37)")
 	(tags "HTSSOP SO")
 	(property "Reference" "REF**"
 		(at 0 -4.85 0)
@@ -24,10 +24,22 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "package/gullwing"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start 0 -4.035)
-		(end -2.2 -4.035)
+		(start -2.31 -4.035)
+		(end 2.31 -4.035)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -35,26 +47,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 0 -4.035)
-		(end 2.2 -4.035)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 0 4.035)
-		(end -2.2 4.035)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 0 4.035)
-		(end 2.2 4.035)
+		(start 2.31 4.035)
+		(end -2.31 4.035)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -63,9 +57,9 @@
 	)
 	(fp_poly
 		(pts
-			(xy -3.91 -3.575)
-			(xy -4.24 -3.335)
-			(xy -4.24 -3.815)
+			(xy -3.91 -3.58)
+			(xy -4.24 -3.34)
+			(xy -4.24 -3.82)
 		)
 		(stroke
 			(width 0.12)
@@ -182,49 +176,19 @@
 		)
 		(layer "F.CrtYd")
 	)
-	(fp_line
-		(start -2.2 -2.9)
-		(end -1.2 -3.9)
+	(fp_poly
+		(pts
+			(xy -1.2 -3.9)
+			(xy 2.2 -3.9)
+			(xy 2.2 3.9)
+			(xy -2.2 3.9)
+			(xy -2.2 -2.9)
+		)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -2.2 3.9)
-		(end -2.2 -2.9)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -1.2 -3.9)
-		(end 2.2 -3.9)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 2.2 -3.9)
-		(end 2.2 3.9)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 2.2 3.9)
-		(end -2.2 3.9)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -425,7 +389,7 @@
 		(zone_connect 2)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/HTSSOP-24-1EP_4.4x7.8mm_P0.65mm_EP3.2x5mm.step"
+	(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/HTSSOP-24-1EP_4.4x7.8mm_P0.65mm_EP3.2x5mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

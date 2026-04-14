@@ -1,8 +1,8 @@
 (footprint "Stocko_MKS_1658-6-0-808_1x8_P2.50mm_Vertical"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Stocko MKS 16xx series connector, (https://www.stocko-contact.com/downloads/steckverbindersystem-raster-2,5-mm.pdf#page=15), generated with kicad-footprint-generator")
+	(descr "Stocko MKS 16xx series connector, (https://www.stocko-contact.com/downloads/steckverbindersystem-raster-2,5-mm.pdf#page=15)")
 	(tags "Stocko RFK MKS 16xx")
 	(property "Reference" "REF**"
 		(at 8.75 -4.5 0)
@@ -24,7 +24,19 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "connector/Stocko"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.71 -3.25)
 		(end -3.71 3.25)
@@ -164,40 +176,14 @@
 		)
 		(layer "F.SilkS")
 	)
-	(fp_line
+	(fp_rect
 		(start -4.1 -4.25)
-		(end -4.1 4.25)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -4.1 4.25)
 		(end 21.6 4.25)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 21.6 -4.25)
-		(end -4.1 -4.25)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 21.6 4.25)
-		(end 21.6 -4.25)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.CrtYd")
 	)
 	(fp_line
@@ -407,7 +393,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_Stocko.3dshapes/Stocko_MKS_1658-6-0-808_1x8_P2.50mm_Vertical.step"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_Stocko.3dshapes/Stocko_MKS_1658-6-0-808_1x8_P2.50mm_Vertical.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,8 +1,8 @@
 (footprint "TSOP-I-32_12.4x8mm_P0.5mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "TSOP-I, 32 Pin (https://www.jedec.org/standards-documents/docs/mo-142-d variation BA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(descr "TSOP-I, 32 Pin (https://www.jedec.org/standards-documents/docs/mo-142-d variation BA)")
 	(tags "TSOP-I SO")
 	(property "Reference" "REF**"
 		(at 0 -4.95 0)
@@ -24,10 +24,22 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "package/gullwing"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start 0 -4.16)
-		(end -6.2 -4.16)
+		(start -6.31 -4.16)
+		(end 6.31 -4.16)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -35,26 +47,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 0 -4.16)
-		(end 6.2 -4.16)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 0 4.16)
-		(end -6.2 4.16)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 0 4.16)
-		(end 6.2 4.16)
+		(start 6.31 4.16)
+		(end -6.31 4.16)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -63,9 +57,9 @@
 	)
 	(fp_poly
 		(pts
-			(xy -7.735 -3.75)
-			(xy -8.065 -3.51)
-			(xy -8.065 -3.99)
+			(xy -7.74 -3.75)
+			(xy -8.07 -3.51)
+			(xy -8.07 -3.99)
 		)
 		(stroke
 			(width 0.12)
@@ -182,49 +176,19 @@
 		)
 		(layer "F.CrtYd")
 	)
-	(fp_line
-		(start -6.2 -3)
-		(end -5.2 -4)
+	(fp_poly
+		(pts
+			(xy -5.2 -4)
+			(xy 6.2 -4)
+			(xy 6.2 4)
+			(xy -6.2 4)
+			(xy -6.2 -3)
+		)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -6.2 4)
-		(end -6.2 -3)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -5.2 -4)
-		(end 6.2 -4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 6.2 -4)
-		(end 6.2 4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 6.2 4)
-		(end -6.2 4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -430,7 +394,7 @@
 		(roundrect_rratio 0.25)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/TSOP-I-32_12.4x8mm_P0.5mm.step"
+	(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/TSOP-I-32_12.4x8mm_P0.5mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

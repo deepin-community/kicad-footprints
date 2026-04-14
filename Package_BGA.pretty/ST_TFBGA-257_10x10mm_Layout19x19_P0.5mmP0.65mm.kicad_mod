@@ -1,8 +1,8 @@
 (footprint "ST_TFBGA-257_10x10mm_Layout19x19_P0.5mmP0.65mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "ST TFBGA-257, 10.0x10.0mm, 257 Ball, 19x19 Layout, 0.5mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32mp151a.pdf")
+	(descr "ST TFBGA-257, 10.0x10.0mm, 257 Ball, 19x19 Layout, 0.5mm Pitch, https://www.st.com/resource/en/datasheet/stm32mp151a.pdf")
 	(tags "BGA 257 0.5")
 	(solder_mask_margin 0.05)
 	(property "Reference" "REF**"
@@ -25,7 +25,19 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "package/grid_array"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -5.11 5.11)
 		(end -5.11 -4.11)
@@ -75,40 +87,14 @@
 		(fill yes)
 		(layer "F.SilkS")
 	)
-	(fp_line
+	(fp_rect
 		(start -6 -6)
-		(end -6 6)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -6 6)
 		(end 6 6)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 6 -6)
-		(end -6 -6)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 6 6)
-		(end 6 -6)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.CrtYd")
 	)
 	(fp_line
@@ -1709,7 +1695,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_BGA.3dshapes/ST_TFBGA-257_10x10mm_Layout19x19_P0.5mmP0.65mm.step"
+	(model "${KICAD10_3DMODEL_DIR}/Package_BGA.3dshapes/ST_TFBGA-257_10x10mm_Layout19x19_P0.5mmP0.65mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

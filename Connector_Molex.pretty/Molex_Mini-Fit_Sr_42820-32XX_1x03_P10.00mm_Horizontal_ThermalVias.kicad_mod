@@ -1,8 +1,8 @@
 (footprint "Molex_Mini-Fit_Sr_42820-32XX_1x03_P10.00mm_Horizontal_ThermalVias"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Molex Mini-Fit Sr. Power Connectors, 42820-32XX, With thermal vias in pads, 3 Pins per row (http://www.molex.com/pdm_docs/sd/428202214_sd.pdf), generated with kicad-footprint-generator")
+	(descr "Molex Mini-Fit Sr. Power Connectors, 42820-32XX, With thermal vias in pads, 3 Pins per row (http://www.molex.com/pdm_docs/sd/428202214_sd.pdf)")
 	(tags "connector Molex Mini-Fit_Sr horizontal")
 	(property "Reference" "REF**"
 		(at 17.06 -8.93 0)
@@ -24,7 +24,19 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "connector/Molex"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 6.45 -7.02)
 		(end 12 -7.02)
@@ -124,135 +136,29 @@
 		)
 		(layer "F.SilkS")
 	)
-	(fp_line
+	(fp_rect
 		(start -2.81 -2.66)
-		(end -2.81 2.66)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-	)
-	(fp_line
-		(start -2.81 2.66)
 		(end 7.81 2.66)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
+		(fill no)
 		(layer "B.SilkS")
 	)
-	(fp_line
-		(start 7.81 -2.66)
-		(end -2.81 -2.66)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-	)
-	(fp_line
-		(start 7.81 2.66)
-		(end 7.81 -2.66)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-	)
-	(fp_line
+	(fp_rect
 		(start -3.05 -8.23)
-		(end -3.05 28.23)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -3.05 28.23)
 		(end 28.06 28.23)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 28.06 -8.23)
-		(end -3.05 -8.23)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 28.06 28.23)
-		(end 28.06 -8.23)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -1.04 -1.9)
-		(end 6.56 -1.9)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
 	)
 	(fp_line
 		(start -1.04 -1.2)
 		(end 0.657056 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -1.04 1.9)
-		(end -1.04 -1.9)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -1.04 8.1)
-		(end 6.56 8.1)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -1.04 11.9)
-		(end -1.04 8.1)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -1.04 18.1)
-		(end 6.56 18.1)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -1.04 21.9)
-		(end -1.04 18.1)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -278,26 +184,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 6.56 -6.91)
-		(end 6.56 26.91)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
 		(start 6.56 -5.45)
 		(end 27.56 -5.45)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 6.56 -1.9)
-		(end 6.56 1.9)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -314,51 +202,6 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 6.56 1.9)
-		(end -1.04 1.9)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 6.56 8.1)
-		(end 6.56 11.9)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 6.56 11.9)
-		(end -1.04 11.9)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 6.56 18.1)
-		(end 6.56 21.9)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 6.56 21.9)
-		(end -1.04 21.9)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
 		(start 6.56 25.45)
 		(end 27.56 25.45)
 		(stroke
@@ -367,31 +210,44 @@
 		)
 		(layer "F.Fab")
 	)
-	(fp_line
-		(start 6.56 26.91)
+	(fp_rect
+		(start -1.04 -1.9)
+		(end 6.56 1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_rect
+		(start -1.04 8.1)
+		(end 6.56 11.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_rect
+		(start -1.04 18.1)
+		(end 6.56 21.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_rect
+		(start 6.56 -6.91)
 		(end 27.56 26.91)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 27.56 -6.91)
-		(end 6.56 -6.91)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 27.56 26.91)
-		(end 27.56 -6.91)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -747,7 +603,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Mini-Fit_Sr_42820-32XX_1x03_P10.00mm_Horizontal_ThermalVias.step"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Mini-Fit_Sr_42820-32XX_1x03_P10.00mm_Horizontal_ThermalVias.step"
 		(offset
 			(xyz 0 0 0)
 		)

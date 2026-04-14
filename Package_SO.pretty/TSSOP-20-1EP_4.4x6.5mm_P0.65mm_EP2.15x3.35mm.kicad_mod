@@ -1,8 +1,8 @@
 (footprint "TSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP2.15x3.35mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "TSSOP, 20 Pin (https://pdfserv.maximintegrated.com/package_dwgs/21-100132.PDF), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(descr "TSSOP, 20 Pin (https://pdfserv.maximintegrated.com/package_dwgs/21-100132.PDF)")
 	(tags "TSSOP SO")
 	(property "Reference" "REF**"
 		(at 0 -4.2 0)
@@ -24,10 +24,22 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "package/gullwing"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start 0 -3.385)
-		(end -2.2 -3.385)
+		(start -2.31 -3.385)
+		(end 2.31 -3.385)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -35,26 +47,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 0 -3.385)
-		(end 2.2 -3.385)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 0 3.385)
-		(end -2.2 3.385)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 0 3.385)
-		(end 2.2 3.385)
+		(start 2.31 3.385)
+		(end -2.31 3.385)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -63,9 +57,9 @@
 	)
 	(fp_poly
 		(pts
-			(xy -3.885 -2.925)
-			(xy -4.215 -2.685)
-			(xy -4.215 -3.165)
+			(xy -3.89 -2.93)
+			(xy -4.22 -2.69)
+			(xy -4.22 -3.17)
 		)
 		(stroke
 			(width 0.12)
@@ -182,49 +176,19 @@
 		)
 		(layer "F.CrtYd")
 	)
-	(fp_line
-		(start -2.2 -2.25)
-		(end -1.2 -3.25)
+	(fp_poly
+		(pts
+			(xy -1.2 -3.25)
+			(xy 2.2 -3.25)
+			(xy 2.2 3.25)
+			(xy -2.2 3.25)
+			(xy -2.2 -2.25)
+		)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -2.2 3.25)
-		(end -2.2 -2.25)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -1.2 -3.25)
-		(end 2.2 -3.25)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 2.2 -3.25)
-		(end 2.2 3.25)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 2.2 3.25)
-		(end -2.2 3.25)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -389,7 +353,7 @@
 		(zone_connect 2)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP2.15x3.35mm.step"
+	(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP2.15x3.35mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

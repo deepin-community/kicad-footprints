@@ -1,5 +1,5 @@
 (footprint "Choke_Schaffner_RN216-04-15.5x23.0mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "Current-compensated Chokes, Schaffner, RN216-04, 15.5mmx23.0mm https://www.schaffner.com/products/download/product/datasheet/rn-series-common-mode-chokes-new/")
@@ -24,7 +24,19 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "inductor/THT"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2 -7)
 		(end -2 -4)
@@ -79,40 +91,14 @@
 		)
 		(layer "F.SilkS")
 	)
-	(fp_line
+	(fp_rect
 		(start -1.75 -6.75)
-		(end -1.75 16.75)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -1.75 16.75)
 		(end 14.25 16.75)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 14.25 -6.75)
-		(end -1.75 -6.75)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 14.25 16.75)
-		(end 14.25 -6.75)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.CrtYd")
 	)
 	(fp_line
@@ -217,7 +203,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Inductor_THT.3dshapes/Choke_Schaffner_RN216-04-15.5x23.0mm.step"
+	(model "${KICAD10_3DMODEL_DIR}/Inductor_THT.3dshapes/Choke_Schaffner_RN216-04-15.5x23.0mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

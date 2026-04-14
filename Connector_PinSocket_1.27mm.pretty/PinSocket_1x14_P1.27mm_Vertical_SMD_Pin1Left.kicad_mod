@@ -1,8 +1,8 @@
 (footprint "PinSocket_1x14_P1.27mm_Vertical_SMD_Pin1Left"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "surface-mounted straight socket strip, 1x14, 1.27mm pitch, single row, style 1 (pin 1 left) (https://gct.co/pdfjs/web/viewer.html?file=/Files/Drawings/BD075.pdf&t=1511594726925), script generated")
+	(descr "surface-mounted straight socket strip, 1x14, 1.27mm pitch, single row, style 1 (pin 1 left) (https://gct.co/files/drawings/bd075.pdf), script generated")
 	(tags "Surface mounted socket strip SMD 1x14 1.27mm single row style1 pin1 left")
 	(property "Reference" "REF**"
 		(at 0 -10.565 0)
@@ -24,7 +24,19 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "connector/pin_header_socket"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.19 -8.84)
 		(end -0.96 -8.84)
@@ -197,8 +209,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -2.75 -9.65)
-		(end 2.75 -9.65)
+		(start -2.75 -9.55)
+		(end 2.75 -9.55)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -206,8 +218,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start -2.75 9.5)
-		(end -2.75 -9.65)
+		(start -2.75 9.6)
+		(end -2.75 -9.55)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -215,8 +227,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 2.75 -9.65)
-		(end 2.75 9.5)
+		(start 2.75 -9.55)
+		(end 2.75 9.6)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -224,8 +236,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 2.75 9.5)
-		(end -2.75 9.5)
+		(start 2.75 9.6)
+		(end -2.75 9.6)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -736,7 +748,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_1.27mm.3dshapes/PinSocket_1x14_P1.27mm_Vertical_SMD_Pin1Left.step"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_1.27mm.3dshapes/PinSocket_1x14_P1.27mm_Vertical_SMD_Pin1Left.step"
 		(offset
 			(xyz 0 0 0)
 		)

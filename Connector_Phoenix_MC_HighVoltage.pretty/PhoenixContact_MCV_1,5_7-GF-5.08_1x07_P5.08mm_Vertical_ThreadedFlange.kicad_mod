@@ -1,5 +1,5 @@
 (footprint "PhoenixContact_MCV_1,5_7-GF-5.08_1x07_P5.08mm_Vertical_ThreadedFlange"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "Generic Phoenix Contact connector footprint for: MCV_1,5/7-GF-5.08; number of pins: 07; pin pitch: 5.08mm; Vertical; threaded flange || order number: 1847660 8A 320V")
@@ -24,7 +24,19 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "connector/PhoenixContact"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -7.21 -3.21)
 		(end -7.21 3.01)
@@ -1044,40 +1056,14 @@
 		(fill no)
 		(layer "F.SilkS")
 	)
-	(fp_line
+	(fp_rect
 		(start -7.6 -4.85)
-		(end -7.6 3.41)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -7.6 3.41)
 		(end 38.08 3.41)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 38.08 -4.85)
-		(end -7.6 -4.85)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 38.08 3.41)
-		(end 38.08 -4.85)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.CrtYd")
 	)
 	(fp_line
@@ -1231,7 +1217,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_Phoenix_MC_HighVoltage.3dshapes/PhoenixContact_MCV_1,5_7-GF-5.08_1x07_P5.08mm_Vertical_ThreadedFlange.step"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_Phoenix_MC_HighVoltage.3dshapes/PhoenixContact_MCV_1,5_7-GF-5.08_1x07_P5.08mm_Vertical_ThreadedFlange.step"
 		(offset
 			(xyz 0 0 0)
 		)

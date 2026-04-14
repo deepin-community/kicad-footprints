@@ -1,5 +1,5 @@
 (footprint "Potentiometer_Vishay_148E-149E_Single_Horizontal"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "Potentiometer, horizontal, Vishay 148E-149E Single, http://www.vishay.com/docs/57040/148149.pdf")
@@ -24,7 +24,19 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "potentiometer/THT"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -7.25 -8.9)
 		(end -7.188 -8.9)
@@ -35,8 +47,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -7.25 -6.383)
-		(end -7.25 1.303)
+		(start -7.25 1.303)
+		(end -7.25 -6.383)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -44,8 +56,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -7.25 3.82)
-		(end -7.188 3.82)
+		(start -7.188 3.82)
+		(end -7.25 3.82)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -62,8 +74,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -5.512 3.82)
-		(end 3.012 3.82)
+		(start 3.012 3.82)
+		(end -5.512 3.82)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -73,15 +85,6 @@
 	(fp_line
 		(start 4.688 -8.9)
 		(end 5.19 -8.9)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 4.688 3.82)
-		(end 5.19 3.82)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -108,15 +111,6 @@
 	)
 	(fp_line
 		(start 5.19 -5.825)
-		(end 5.19 0.745)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 5.19 -5.825)
 		(end 11.54 -5.825)
 		(stroke
 			(width 0.12)
@@ -126,7 +120,7 @@
 	)
 	(fp_line
 		(start 5.19 0.745)
-		(end 11.54 0.745)
+		(end 5.19 -5.825)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -136,6 +130,15 @@
 	(fp_line
 		(start 5.19 3.278)
 		(end 5.19 3.82)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 5.19 3.82)
+		(end 4.688 3.82)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -153,15 +156,6 @@
 	)
 	(fp_line
 		(start 11.54 -4.235)
-		(end 11.54 -0.845)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 11.54 -4.235)
 		(end 17.99 -4.235)
 		(stroke
 			(width 0.12)
@@ -171,7 +165,16 @@
 	)
 	(fp_line
 		(start 11.54 -0.845)
-		(end 17.99 -0.845)
+		(end 11.54 -4.235)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 11.54 0.745)
+		(end 5.19 0.745)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -181,6 +184,15 @@
 	(fp_line
 		(start 17.99 -4.235)
 		(end 17.99 -0.845)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 17.99 -0.845)
+		(end 11.54 -0.845)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -287,7 +299,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Vishay_148E-149E_Single_Horizontal.step"
+	(model "${KICAD10_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Vishay_148E-149E_Single_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

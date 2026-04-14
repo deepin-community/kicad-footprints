@@ -1,7 +1,7 @@
 (footprint "Harwin_Gecko-G125-MVX1005L0X_2x05_P1.25mm_Vertical"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Harwin Gecko Connector, 10 pins, dual row male, vertical entry, no latches, PN:G125-MVX1005L0X, https://content.harwin.com/m/62fd8add13144f50/original/DRG-00182-Technical-Drawing-Datasheet-G125-MVXXX05LXP-pdf.pdf")
 	(tags "connector harwin gecko")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.9 -2.325)
 		(end -1.9 -2.125)
@@ -812,20 +813,20 @@
 		(uuid "dab3c070-f279-4623-9d03-6b6f54e5708c")
 	)
 	(pad "7" thru_hole circle
-		(at 2.5 -1.25)
-		(size 0.95 0.95)
-		(drill 0.55)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "876a4df7-ee7c-4b98-93ae-2fdc826f8f48")
-	)
-	(pad "8" thru_hole circle
 		(at 1.25 -1.25)
 		(size 0.95 0.95)
 		(drill 0.55)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "016613cd-279a-4896-ba91-c556339fbf4b")
+	)
+	(pad "8" thru_hole circle
+		(at 2.5 -1.25)
+		(size 0.95 0.95)
+		(drill 0.55)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "876a4df7-ee7c-4b98-93ae-2fdc826f8f48")
 	)
 	(pad "9" thru_hole circle
 		(at 3.75 -1.25)
@@ -844,7 +845,7 @@
 		(uuid "db8e1f66-69ac-4198-aac2-1304bb481f6d")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_Harwin.3dshapes/Harwin_Gecko-G125-MVX1005L0X_2x05_P1.25mm_Vertical.step"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_Harwin.3dshapes/Harwin_Gecko-G125-MVX1005L0X_2x05_P1.25mm_Vertical.step"
 		(offset
 			(xyz 0 0 0)
 		)

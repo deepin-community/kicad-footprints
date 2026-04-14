@@ -1,8 +1,8 @@
 (footprint "SSO-7-8_6.4x9.78mm_P2.54mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "SSO, 7 Pin (https://b2b-api.panasonic.eu/file_stream/pids/fileversion/2787), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(descr "SSO, 7 Pin (https://b2b-api.panasonic.eu/file_stream/pids/fileversion/2787)")
 	(tags "SSO SO")
 	(property "Reference" "REF**"
 		(at 0 -5.84 0)
@@ -24,10 +24,31 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "package/gullwing"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.31 -5)
-		(end -3.31 -4.77)
+		(end 3.31 -5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -3.31 -4.77)
+		(end -3.31 -5)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -44,42 +65,6 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 0 -5)
-		(end -3.31 -5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 0 -5)
-		(end 3.31 -5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 0 5)
-		(end -3.31 5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 0 5)
-		(end 3.31 5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
 		(start 3.31 -5)
 		(end 3.31 -4.77)
 		(stroke
@@ -89,8 +74,35 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
+		(start 3.31 -2.85)
+		(end 3.31 0.31)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 3.31 2.23)
+		(end 3.31 2.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 3.31 4.77)
+		(end 3.31 5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
 		(start 3.31 5)
-		(end 3.31 4.77)
+		(end -3.31 5)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -99,9 +111,9 @@
 	)
 	(fp_poly
 		(pts
-			(xy -4.2125 -4.77)
-			(xy -4.5525 -5.24)
-			(xy -3.8725 -5.24)
+			(xy -4.31 -4.77)
+			(xy -4.65 -5.24)
+			(xy -3.97 -5.24)
 		)
 		(stroke
 			(width 0.12)
@@ -183,6 +195,42 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
+		(start 3.45 -2.86)
+		(end 3.45 0.31)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 3.45 0.31)
+		(end 5.48 0.31)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 3.45 2.22)
+		(end 3.45 2.86)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 3.45 2.86)
+		(end 5.48 2.86)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
 		(start 3.45 4.76)
 		(end 3.45 5.14)
 		(stroke
@@ -202,6 +250,42 @@
 	)
 	(fp_line
 		(start 5.48 -4.76)
+		(end 5.48 -2.86)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 5.48 -2.86)
+		(end 3.45 -2.86)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 5.48 0.31)
+		(end 5.48 2.22)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 5.48 2.22)
+		(end 3.45 2.22)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 5.48 2.86)
 		(end 5.48 4.76)
 		(stroke
 			(width 0.05)
@@ -218,49 +302,19 @@
 		)
 		(layer "F.CrtYd")
 	)
-	(fp_line
-		(start -3.2 -3.89)
-		(end -2.2 -4.89)
+	(fp_poly
+		(pts
+			(xy -2.2 -4.89)
+			(xy 3.2 -4.89)
+			(xy 3.2 4.89)
+			(xy -3.2 4.89)
+			(xy -3.2 -3.89)
+		)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -3.2 4.89)
-		(end -3.2 -3.89)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -2.2 -4.89)
-		(end 3.2 -4.89)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 3.2 -4.89)
-		(end 3.2 4.89)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 3.2 4.89)
-		(end -3.2 4.89)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -316,7 +370,7 @@
 		(roundrect_rratio 0.178571)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SSO-7-8_6.4x9.78mm_P2.54mm.step"
+	(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SSO-7-8_6.4x9.78mm_P2.54mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

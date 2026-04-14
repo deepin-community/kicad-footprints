@@ -1,8 +1,8 @@
 (footprint "PinSocket_1x30_P1.27mm_Vertical_SMD_Pin1Right"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "surface-mounted straight socket strip, 1x30, 1.27mm pitch, single row, style 2 (pin 1 right) (https://gct.co/pdfjs/web/viewer.html?file=/Files/Drawings/BD075.pdf&t=1511594726925), script generated")
+	(descr "surface-mounted straight socket strip, 1x30, 1.27mm pitch, single row, style 2 (pin 1 right) (https://gct.co/files/drawings/bd075.pdf), script generated")
 	(tags "Surface mounted socket strip SMD 1x30 1.27mm single row style2 pin1 right")
 	(property "Reference" "REF**"
 		(at 0 -20.725 0)
@@ -24,7 +24,19 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "connector/pin_header_socket"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.96 -19.285)
 		(end -0.96 -17.73)
@@ -341,8 +353,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -2.75 -19.75)
-		(end 2.75 -19.75)
+		(start -2.75 -19.7)
+		(end 2.75 -19.7)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -350,8 +362,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start -2.75 19.7)
-		(end -2.75 -19.75)
+		(start -2.75 19.75)
+		(end -2.75 -19.7)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -359,8 +371,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 2.75 -19.75)
-		(end 2.75 19.7)
+		(start 2.75 -19.7)
+		(end 2.75 19.75)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -368,8 +380,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 2.75 19.7)
-		(end -2.75 19.7)
+		(start 2.75 19.75)
+		(end -2.75 19.75)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -1392,7 +1404,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_1.27mm.3dshapes/PinSocket_1x30_P1.27mm_Vertical_SMD_Pin1Right.step"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_1.27mm.3dshapes/PinSocket_1x30_P1.27mm_Vertical_SMD_Pin1Right.step"
 		(offset
 			(xyz 0 0 0)
 		)

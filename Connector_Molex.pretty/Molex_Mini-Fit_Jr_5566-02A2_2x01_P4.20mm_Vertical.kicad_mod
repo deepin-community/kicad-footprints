@@ -1,8 +1,8 @@
 (footprint "Molex_Mini-Fit_Jr_5566-02A2_2x01_P4.20mm_Vertical"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Molex Mini-Fit Jr. Power Connectors, old mpn/engineering number: 5566-02A2, example for new mpn: 39-28-902x, 1 Pins per row, Mounting: Snap-in Plastic Peg PCB Lock (http://www.molex.com/pdm_docs/sd/039289068_sd.pdf), generated with kicad-footprint-generator")
+	(descr "Molex Mini-Fit Jr. Power Connectors, old mpn/engineering number: 5566-02A2, example for new mpn: 39-28-902x, 1 Pins per row, Mounting: Snap-in Plastic Peg PCB Lock (http://www.molex.com/pdm_docs/sd/039289068_sd.pdf)")
 	(tags "connector Molex Mini-Fit_Jr verticalplastic_peg")
 	(property "Reference" "REF**"
 		(at 0 -3.45 0)
@@ -24,7 +24,19 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "connector/Molex"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.7 3.28)
 		(end -2.81 3.28)
@@ -289,24 +301,6 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start -2.7 -2.25)
-		(end -2.7 7.35)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -2.7 7.35)
-		(end 2.7 7.35)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
 		(start -1.7 7.35)
 		(end -1.7 8.75)
 		(stroke
@@ -318,24 +312,6 @@
 	(fp_line
 		(start -1.7 8.75)
 		(end 1.7 8.75)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -1.65 -1)
-		(end -1.65 2.3)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -1.65 2.3)
-		(end 1.65 2.3)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -388,24 +364,6 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 1.65 -1)
-		(end -1.65 -1)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 1.65 2.3)
-		(end 1.65 -1)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
 		(start 1.65 4.025)
 		(end 1.65 6.5)
 		(stroke
@@ -433,24 +391,6 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 2.7 -2.25)
-		(end -2.7 -2.25)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 2.7 7.35)
-		(end 2.7 -2.25)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
 		(start 4.7 3.54)
 		(end 2.7 3.54)
 		(stroke
@@ -466,6 +406,26 @@
 			(width 0.1)
 			(type solid)
 		)
+		(layer "F.Fab")
+	)
+	(fp_rect
+		(start -2.7 -2.25)
+		(end 2.7 7.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_rect
+		(start -1.65 -1)
+		(end 1.65 2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_arc
@@ -526,7 +486,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Mini-Fit_Jr_5566-02A2_2x01_P4.20mm_Vertical.step"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Mini-Fit_Jr_5566-02A2_2x01_P4.20mm_Vertical.step"
 		(offset
 			(xyz 0 0 0)
 		)

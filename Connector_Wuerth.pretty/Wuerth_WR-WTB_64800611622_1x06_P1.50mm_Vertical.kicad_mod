@@ -1,8 +1,8 @@
 (footprint "Wuerth_WR-WTB_64800611622_1x06_P1.50mm_Vertical"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Wuerth WR-WTB series connector, 64800611622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator")
+	(descr "Wuerth WR-WTB series connector, 64800611622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf)")
 	(tags "connector Wuerth WR-WTB vertical")
 	(property "Reference" "REF**"
 		(at 3.75 -2.5 0)
@@ -24,7 +24,19 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "connector/Wuerth"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.91 -1.71)
 		(end -1.91 -0.46)
@@ -35,26 +47,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -1.61 -1.41)
-		(end -1.61 2.31)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
 		(start -1.61 -0.35)
 		(end -1.41 -0.35)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -1.61 2.31)
-		(end 9.11 2.31)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -169,51 +163,25 @@
 		)
 		(layer "F.SilkS")
 	)
-	(fp_line
-		(start 9.11 -1.41)
-		(end -1.61 -1.41)
+	(fp_rect
+		(start -1.61 -1.41)
+		(end 9.11 2.31)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 9.11 2.31)
-		(end 9.11 -1.41)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.SilkS")
 	)
 	(fp_rect
-		(start 9.5 2.7)
-		(end -2 -1.8)
+		(start -2 -1.8)
+		(end 9.5 2.7)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -1.5 -1.3)
-		(end -1.5 2.2)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -1.5 2.2)
-		(end 9 2.2)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
 	)
 	(fp_line
 		(start -1 -1.3)
@@ -233,22 +201,14 @@
 		)
 		(layer "F.Fab")
 	)
-	(fp_line
-		(start 9 -1.3)
-		(end -1.5 -1.3)
+	(fp_rect
+		(start -1.5 -1.3)
+		(end 9 2.2)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 9 2.2)
-		(end 9 -1.3)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
@@ -305,7 +265,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_Wuerth.3dshapes/Wuerth_WR-WTB_64800611622_1x06_P1.50mm_Vertical.step"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_Wuerth.3dshapes/Wuerth_WR-WTB_64800611622_1x06_P1.50mm_Vertical.step"
 		(offset
 			(xyz 0 0 0)
 		)

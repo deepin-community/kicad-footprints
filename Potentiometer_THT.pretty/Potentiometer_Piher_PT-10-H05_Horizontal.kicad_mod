@@ -1,5 +1,5 @@
 (footprint "Potentiometer_Piher_PT-10-H05_Horizontal"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "Potentiometer, horizontal, Piher PT-10-H05, http://www.piher-nacesa.com/pdf/12-PT10v03.pdf")
@@ -24,16 +24,19 @@
 			)
 		)
 	)
-	(attr through_hole)
-	(fp_line
-		(start -0.11 -2.76)
-		(end -0.11 -1.396)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
+	(property "KiLib_Generator" "potentiometer/THT"
+		(at 0 0 0)
 		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
 	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.11 -2.76)
 		(end 4.91 -2.76)
@@ -44,8 +47,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -0.11 1.396)
-		(end -0.11 3.604)
+		(start -0.11 -1.396)
+		(end -0.11 -2.76)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -53,8 +56,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -0.11 1.396)
-		(end -0.11 3.604)
+		(start -0.11 3.604)
+		(end -0.11 1.396)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -62,8 +65,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -0.11 6.396)
-		(end -0.11 7.76)
+		(start -0.11 3.604)
+		(end -0.11 1.396)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -72,7 +75,7 @@
 	)
 	(fp_line
 		(start -0.11 7.76)
-		(end 4.91 7.76)
+		(end -0.11 6.396)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -82,15 +85,6 @@
 	(fp_line
 		(start 1.245 0.64)
 		(end 4.91 0.64)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 1.245 4.36)
-		(end 4.91 4.36)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -133,6 +127,24 @@
 		)
 		(layer "F.SilkS")
 	)
+	(fp_line
+		(start 4.91 4.36)
+		(end 1.245 4.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 4.91 7.76)
+		(end -0.11 7.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
 	(fp_rect
 		(start -1.42 -2.91)
 		(end 6.42 7.9)
@@ -144,8 +156,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_rect
-		(start 0 0.75)
-		(end 4.8 4.25)
+		(start 0 -2.65)
+		(end 4.8 7.65)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -154,8 +166,8 @@
 		(layer "F.Fab")
 	)
 	(fp_rect
-		(start 4.8 -2.65)
-		(end 0 7.65)
+		(start 0 0.75)
+		(end 4.8 4.25)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -195,7 +207,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Piher_PT-10-H05_Horizontal.step"
+	(model "${KICAD10_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Piher_PT-10-H05_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

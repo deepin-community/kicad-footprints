@@ -1,8 +1,8 @@
 (footprint "SolderWire-2.5sqmm_1x06_P8.8mm_D2.4mm_OD4.4mm_Relief"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Soldered wire connection with feed through strain relief, for 6 times 2.5 mm² wires, reinforced insulation, conductor diameter 2.4mm, outer diameter 4.4mm, size source Multi-Contact FLEXI-xV 2.5 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+	(descr "Soldered wire connection with feed through strain relief, for 6 times 2.5 mm² wires, reinforced insulation, conductor diameter 2.4mm, outer diameter 4.4mm, size source Multi-Contact FLEXI-xV 2.5 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter")
 	(tags "connector wire 2.5sqmm strain-relief")
 	(property "Reference" "REF**"
 		(at 22 -3.4 0)
@@ -24,7 +24,19 @@
 			)
 		)
 	)
+	(property "KiLib_Generator" "connector/wire"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.31 2.46)
 		(end -2.31 24.09)
@@ -133,436 +145,124 @@
 		)
 		(layer "F.SilkS")
 	)
-	(fp_line
+	(fp_rect
 		(start -2.95 23.45)
-		(end -2.95 29.35)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "B.CrtYd")
-	)
-	(fp_line
-		(start -2.95 29.35)
 		(end 2.95 29.35)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "B.CrtYd")
 	)
-	(fp_line
-		(start 2.95 23.45)
-		(end -2.95 23.45)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "B.CrtYd")
-	)
-	(fp_line
-		(start 2.95 29.35)
-		(end 2.95 23.45)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "B.CrtYd")
-	)
-	(fp_line
+	(fp_rect
 		(start 5.85 23.45)
-		(end 5.85 29.35)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "B.CrtYd")
-	)
-	(fp_line
-		(start 5.85 29.35)
 		(end 11.75 29.35)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "B.CrtYd")
 	)
-	(fp_line
-		(start 11.75 23.45)
-		(end 5.85 23.45)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "B.CrtYd")
-	)
-	(fp_line
-		(start 11.75 29.35)
-		(end 11.75 23.45)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "B.CrtYd")
-	)
-	(fp_line
+	(fp_rect
 		(start 14.65 23.45)
-		(end 14.65 29.35)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "B.CrtYd")
-	)
-	(fp_line
-		(start 14.65 29.35)
 		(end 20.55 29.35)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "B.CrtYd")
 	)
-	(fp_line
-		(start 20.55 23.45)
-		(end 14.65 23.45)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "B.CrtYd")
-	)
-	(fp_line
-		(start 20.55 29.35)
-		(end 20.55 23.45)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "B.CrtYd")
-	)
-	(fp_line
+	(fp_rect
 		(start 23.45 23.45)
-		(end 23.45 29.35)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "B.CrtYd")
-	)
-	(fp_line
-		(start 23.45 29.35)
 		(end 29.35 29.35)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "B.CrtYd")
 	)
-	(fp_line
-		(start 29.35 23.45)
-		(end 23.45 23.45)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "B.CrtYd")
-	)
-	(fp_line
-		(start 29.35 29.35)
-		(end 29.35 23.45)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "B.CrtYd")
-	)
-	(fp_line
+	(fp_rect
 		(start 32.25 23.45)
-		(end 32.25 29.35)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "B.CrtYd")
-	)
-	(fp_line
-		(start 32.25 29.35)
 		(end 38.15 29.35)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "B.CrtYd")
 	)
-	(fp_line
-		(start 38.15 23.45)
-		(end 32.25 23.45)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "B.CrtYd")
-	)
-	(fp_line
-		(start 38.15 29.35)
-		(end 38.15 23.45)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "B.CrtYd")
-	)
-	(fp_line
+	(fp_rect
 		(start 41.05 23.45)
-		(end 41.05 29.35)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "B.CrtYd")
-	)
-	(fp_line
-		(start 41.05 29.35)
 		(end 46.95 29.35)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "B.CrtYd")
 	)
-	(fp_line
-		(start 46.95 23.45)
-		(end 41.05 23.45)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "B.CrtYd")
-	)
-	(fp_line
-		(start 46.95 29.35)
-		(end 46.95 23.45)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "B.CrtYd")
-	)
-	(fp_line
+	(fp_rect
 		(start -2.95 -2.7)
-		(end -2.95 29.35)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -2.95 29.35)
 		(end 2.95 29.35)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
 	)
-	(fp_line
-		(start 2.95 -2.7)
-		(end -2.95 -2.7)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 2.95 29.35)
-		(end 2.95 -2.7)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
+	(fp_rect
 		(start 5.85 -2.7)
-		(end 5.85 29.35)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 5.85 29.35)
 		(end 11.75 29.35)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
 	)
-	(fp_line
-		(start 11.75 -2.7)
-		(end 5.85 -2.7)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 11.75 29.35)
-		(end 11.75 -2.7)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
+	(fp_rect
 		(start 14.65 -2.7)
-		(end 14.65 29.35)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 14.65 29.35)
 		(end 20.55 29.35)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
 	)
-	(fp_line
-		(start 20.55 -2.7)
-		(end 14.65 -2.7)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 20.55 29.35)
-		(end 20.55 -2.7)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
+	(fp_rect
 		(start 23.45 -2.7)
-		(end 23.45 29.35)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 23.45 29.35)
 		(end 29.35 29.35)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
 	)
-	(fp_line
-		(start 29.35 -2.7)
-		(end 23.45 -2.7)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 29.35 29.35)
-		(end 29.35 -2.7)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
+	(fp_rect
 		(start 32.25 -2.7)
-		(end 32.25 29.35)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 32.25 29.35)
 		(end 38.15 29.35)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
 	)
-	(fp_line
-		(start 38.15 -2.7)
-		(end 32.25 -2.7)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 38.15 29.35)
-		(end 38.15 -2.7)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
+	(fp_rect
 		(start 41.05 -2.7)
-		(end 41.05 29.35)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 41.05 29.35)
 		(end 46.95 29.35)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 46.95 -2.7)
-		(end 41.05 -2.7)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 46.95 29.35)
-		(end 46.95 -2.7)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.CrtYd")
 	)
 	(fp_line
@@ -883,7 +583,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-2.5sqmm_1x06_P8.8mm_D2.4mm_OD4.4mm_Relief.step"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-2.5sqmm_1x06_P8.8mm_D2.4mm_OD4.4mm_Relief.step"
 		(offset
 			(xyz 0 0 0)
 		)
